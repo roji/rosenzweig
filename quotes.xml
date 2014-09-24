@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div>
+            <xi:include href="externalBiblTest.xml" xpointer="external"
+               xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
+            <note xml:id="quotes">
+               <note type="Sinai"><ref xml:id="Sinai1" cRef="?">
+                     <!--					need to go throught these quotes agains:
+						<p rend="zenoPLm4n0" xml:id="tg2642.2.56.s71q.0"> 
+						<ref type="noteAnchor" target="#tg1368.2.15.s71q.0">
+							<anchor xml:id="tg2642.2.56.1.s71q.0" n="/Literatur/M/Luther, Martin/Luther-Bibel 1912/Das Neue Testament/Der erste Brief des Paulus an die Korinther/1. Korintherbrief 15#1912_55"/>
+							<ptr cRef="/Literatur/M/Luther, Martin/Luther-Bibel 1545/Das Neue Testament/Der erste Brief des Paulus an die Korinther/1. Korintherbrief 15#1545_55"/>
+							<hi rend="superscript" xml:id="tg2642.2.56.2.1.s71q.0">55</hi>
+						</ref>»Der Tod ist verschlungen in den Sieg. Tod, wo ist dein Stachel? Hölle, wo ist dein Sieg?«</p>
+					-->
+                     <span>Der Tod ist verschlungen in den Sieg. Tod, wo ist dein Stachel? Hölle, wo
+                        ist dein Sieg?</span>
+                     <note>here notes</note>
+                  </ref>
+                  <ref xml:id="Sinai2" target="http://www.sefaria.org/Hosea.13.14"><span>Erst aus
+                        der Hand des Gruftreichs gelte ich sie ab, erst aus dem Tod erlöse ich sie.
+                        Herbei mit deinen Seuchen, Tod, herbei mit deinem Pestfieber, Gruft! Vor
+                        meinen Augen muß die Tröstung sich bergen</span>
+                     <!--add here both luther's and the the buberosenzweig translation above--></ref>
+                  <ref xml:id="Sinai3"> </ref></note>
+               <note type="Ynon">
+                  <ref xml:id="Ynon1" ana="#S.Glatzer1" n="3:1-5"
+                     xml:base="http://www.obohu.cz/bible/index.php?styl=LUT1&amp;k=Gn&amp;kap=3"
+                     cRef="#B.genesis">die Schlange </ref>
+                  <ref xml:id="Ynon2"></ref>
+                  <ref xml:id="Ynon3"></ref>
+                  <ref xml:id="Ynon4" n="25:8, " ana="#S.Glatzer1">I</ref>
+                  <ref xml:id="Ynon5" ana="#WYGODA" n="15:55" corresp="ynon5"
+                     xml:base="http://www.obohu.cz/bible/index.php?styl=LUT1&amp;kap=15&amp;k=1K">m
+                     Ewigen wird der Triumph über den Tod, der darin verschlungen ist,
+                     gefeiert></ref>
+                  <ref xml:id="Ynon6"></ref>
+                  <ref xml:id="Ynon7"></ref>
+                  <ref xml:id="Ynon8"></ref>
+                  <ref xml:id="Ynon9"></ref>
+                  <ref xml:id="Ynon10"></ref>
+                  <ref xml:id="Ynon11"></ref>
+                  <ref xml:id="Ynon12"></ref>
+                  <ref xml:id="Ynon13"><xi:include href="grenzen.xml" xpointer="grenzen1"
+                        xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
+                     <note>here notes</note>
+                     <precision precision="high"> </precision>
+                     <certainty locus="value" cert="high"></certainty>
+                  </ref>
+                  <ref xml:id="Ynon14"></ref></note>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>
