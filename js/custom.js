@@ -57,6 +57,49 @@ function AttachTooltip(quoteEl, bibRecord)
     $(quoteEl).tooltipster({ content: wrapper });
 }
 
+function AttachSplitPane()
+{
+    var splitPane = $('<div/>', {
+        'class': 'split-pane vertical-percent'
+    })
+      .append($('<div/>', {
+        id: 'book-pane',
+        "class": 'split-pane-component'
+      }).append(
+        $('<div/>', {
+          id: "book",
+          "class" : "pretty-split-pane-component-inner"
+        }).append($('body').children().detach())
+      ))
+      
+      .append($('<div/>', {
+        id : "divider",
+        "class" : "split-pane-divider"
+      }))
+      
+      .append(
+        $('<div/>', {
+          id: 'external-text-pane',
+          "class": 'split-pane-component'
+        }).append(
+          $('<div/>', {
+            "class" : "pretty-split-pane-component-inner"
+          }).append($('<iframe/>', {
+            id: 'external-text',
+            src: "css/custom.css"
+          }))
+        )
+      );
+    
+    $(splitPane).splitPane();
+    
+    $('<div/>', {
+        'class': 'pretty-split-pane-frame'
+    })
+      .append(splitPane)
+      .appendTo($('body'));
+}
+
 $(document).ready(function()
 {
     ParseBibliography();
@@ -80,4 +123,6 @@ $(document).ready(function()
         
         AttachTooltip(this, bibRecord);
     });
+    
+    AttachSplitPane();
 });
