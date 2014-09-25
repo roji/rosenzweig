@@ -736,6 +736,12 @@ of this software, even if advised of the possibility of such damage.
       </xsl:when>
       <xsl:when test="tei:biblStruct and not(tei:bibl)">
         <ol class="listBibl {$biblioStyle}">
+          <!-- SHAY: Added data-type attribute -->
+          <xsl:if test="@type">
+            <xsl:attribute name="data-type">
+              <xsl:value-of select="@type"/>
+            </xsl:attribute>
+          </xsl:if>
           <xsl:for-each select="tei:biblStruct">
             <xsl:sort select="lower-case((tei:*/tei:author/tei:surname|tei:*[1]/tei:author/tei:orgName|tei:*[1]/tei:author/tei:name|tei:*[1]/tei:author|tei:*[1]/tei:editor/tei:surname|tei:*[1]/tei:editor/tei:name|tei:*[1]/tei:editor|tei:*[1]/tei:title[1])[1])"/>
             <xsl:sort select="tei:monogr/tei:imprint/tei:date"/>
@@ -755,6 +761,12 @@ of this software, even if advised of the possibility of such damage.
       </xsl:when>
       <xsl:otherwise>
         <ol class="listBibl">
+          <!-- SHAY: Added data-type attribute -->
+          <xsl:if test="@type">
+            <xsl:attribute name="data-type">
+              <xsl:value-of select="@type"/>
+            </xsl:attribute>
+          </xsl:if>          
           <xsl:for-each select="*[not(self::tei:head)]">
             <li>
               <xsl:call-template name="makeAnchor">
@@ -1245,10 +1257,49 @@ of this software, even if advised of the possibility of such damage.
         </blockquote>
       </xsl:when>
       <xsl:otherwise>
+  <!--
 	<span>
+  -->
+   <a>
+    <xsl:attribute name="href">#</xsl:attribute>
+	  <!-- START ADDITION BY SHAY -->
+	  <xsl:if test="@corresp">
+	    <xsl:attribute name="data-corresp">
+	      <xsl:value-of select="@corresp"/>
+	    </xsl:attribute>
+	  </xsl:if>
+	  <xsl:if test="@n">
+	    <xsl:attribute name="data-n">
+	      <xsl:value-of select="@n"/>
+	    </xsl:attribute>
+	  </xsl:if>	  
+	  <xsl:if test="@source">
+	    <xsl:attribute name="data-source">
+	      <xsl:value-of select="@source"/>
+	    </xsl:attribute>
+	  </xsl:if>
+	  <xsl:if test="@ana">
+	    <xsl:attribute name="data-ana">
+	      <xsl:value-of select="@ana"/>
+	    </xsl:attribute>
+	  </xsl:if>	  
+	  <xsl:if test="@source">
+	    <xsl:attribute name="data-source">
+	      <xsl:value-of select="@source"/>
+	    </xsl:attribute>
+	  </xsl:if>
+	  <xsl:if test="@xml:base">
+	    <xsl:attribute name="data-base">
+	      <xsl:value-of select="@xml:base"/>
+	    </xsl:attribute>
+	  </xsl:if>	  
+	  <!-- END ADDITION BY SHAY -->
 	  <xsl:call-template name="makeRendition"/>
 	  <xsl:call-template name="makeQuote"/>
+     <!--
         </span>
+     -->
+        </a>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

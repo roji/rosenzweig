@@ -1,0 +1,83 @@
+// Load bibliography data from HTML into efficient and easy-to-use Javascript structures
+function ParseBibliography()
+{
+    console.log("Parsing bibliography...");
+    bibliography = {};
+    $('.tei_front .listBibl li').each(function(i)
+    {
+        console.log('Loading ' + $(this).attr('id') + ': ' + $('.author', $(this)).text());
+        var quoteType = $(this).closest('.listBibl').data('type');
+        bibliography[$(this).attr('id')] = {
+           type:   quoteType,
+           author: $('.author', $(this)).text(),
+           title:  $('.titlem', $(this)).text()
+        };
+    });
+}
+
+function AttachTooltip(quoteEl, bibRecord)
+{
+    if (typeof bibRecord == 'undefined') {
+        $(quoteEl).tooltipster({
+            content: $('<span>Source not found in bibliography list: ' + $(quoteEl).data('source') + '</span>')
+        });
+        return;
+    }
+    
+    var wrapper = $('<div/>', { 'class': 'quote_tooltip' });
+    wrapper.append($('<p/>', {
+            'class': 'text',
+            text: $(quoteEl).text()
+    }));
+    
+    if ('author' in bibRecord)
+        wrapper.append($('<span/>', {
+            'class': 'author',
+            text: bibRecord.author
+        }));
+
+    if ('author' in bibRecord && 'title' in bibRecord)
+        wrapper.append(', ')
+        
+    if ('title' in bibRecord)
+        wrapper.append($('<span/>', {
+            'class': 'title',
+            text: bibRecord.title
+        }));
+
+    var pageno = $(quoteEl).data('n')
+    if (typeof pageno != 'undefined')
+        wrapper
+            .append(', ')
+            .append($('<span/>', {
+                'class': 'pageno',
+                text: pageno
+            }));
+
+    $(quoteEl).tooltipster({ content: wrapper });
+}
+
+$(document).ready(function()
+{
+    ParseBibliography();
+    
+    // TODO: Pass over all quotes to make sure there are no unresolved quotes?
+    
+    $('.quote').each(function(i)
+    {
+        if (typeof $(this).data('source') == 'undefined') {
+            console.log('Quote has no source attribute');
+            return;
+        }
+        var source = $(this).data('source').replace(/^#/, '');
+        var bibRecord = bibliography[source];
+        if (typeof bibRecord == 'undefined') {
+            console.log("Quote has unknown bibliography source: " + $(this).data('source'));
+        } else {
+            // Add a CSS class to the quote based on its bibliography type (e.g. GermanLit)
+            $(this).addClass(bibRecord.type);
+        }
+        
+        AttachTooltip(this, bibRecord);
+    });
+});

@@ -1,0 +1,15 @@
+.tei_front {
+  display: none;
+}
+
+.quote_tooltip .text {
+  font-style: italic;
+}
+
+.quote_tooltip .title {
+  font-weight: bold;
+}
+
+.quote.GermanLIT {
+  color: green;
+}
