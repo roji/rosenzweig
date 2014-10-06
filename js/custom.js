@@ -7,11 +7,16 @@ function ParseBibliography()
     {
         console.log('Loading ' + $(this).attr('id') + ': ' + $('.author', $(this)).text());
         var quoteType = $(this).closest('.listBibl').data('type');
-        bibliography[$(this).attr('id')] = {
+        var bib = {
            type:   quoteType,
            author: $('.author', $(this)).text(),
-           title:  $('.titlem', $(this)).text()
+           title:  $('.titlem', $(this)).text(),
         };
+        var link = $('.link_ptr', $(this));
+        if (link) {
+          bib.link = link.attr('href');
+        }
+        bibliography[$(this).attr('id')] = bib;
     });
 }
 
@@ -57,6 +62,14 @@ function AttachTooltip(quoteEl, bibRecord)
     $(quoteEl).tooltipster({ content: wrapper });
 }
 
+function AttachLink(quoteEl, bibRecord)
+{
+  console.log("Attaching link");
+  $(quoteEl).click(function() {
+    $('#external-text').attr('src', bibRecord.link);
+  });
+}
+
 function AttachSplitPane()
 {
     var splitPane = $('<div/>', {
@@ -86,7 +99,7 @@ function AttachSplitPane()
             "class" : "pretty-split-pane-component-inner"
           }).append($('<iframe/>', {
             id: 'external-text',
-            src: "css/custom.css"
+            src: ""
           }))
         )
       );
@@ -122,6 +135,8 @@ $(document).ready(function()
         }
         
         AttachTooltip(this, bibRecord);
+        if (typeof bibRecord != 'undefined' && typeof bibRecord.link != 'undefined')
+          AttachLink(this, bibRecord);
     });
     
     AttachSplitPane();
