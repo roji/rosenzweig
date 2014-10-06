@@ -46,8 +46,7 @@
 	<text>
 
 		<front>
-			<xi:include href="externalBiblTest.xml" xpointer="external" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-			<xi:include href="quotes.xml" xpointer="quotes" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+			<xi:include href="bibliography.xml" xpointer="external" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 			<titlePage>
 				<docTitle>
 					<titlePart type="main">Der Stern der Erlösung</titlePart>
