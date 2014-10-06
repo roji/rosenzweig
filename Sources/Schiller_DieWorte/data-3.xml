@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://textgrid.info/namespaces/metadata/core/2010" xmlns:tgl="http://textgrid.info/namespaces/metadata/language/2010" xmlns:tgs="http://textgrid.info/namespaces/metadata/script/2010" xmlns:tgr="http://textgrid.info/namespaces/metadata/agent/2010" xml:id="tg170" n="/Literatur/M/Schiller, Friedrich/Gedichte/Gedichte (1789-1805)/Die Worte des Glaubens">
+   <teiHeader xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:a="http://www.textgrid.info/namespace/digibib/authors">
+      <fileDesc>
+         <titleStmt>
+            <title>Die Worte des Glaubens</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="handle">hdl:11858/00-1734-0000-0004-CDD9-4</idno><idno type="TextGridUri">textgrid:v07p.0</idno><availability>
+               
+               <p> Der annotierte Datenbestand der Digitalen Bibliothek inklusive Metadaten sowie
+                                   davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von
+                                   www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons
+                                   Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid) veröffentlicht. Die
+                                   Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden
+                                   allgemeinfreien Texte (Siehe auch Punkt 2 der Lizenzbestimmungen). </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+               </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/"> Eine vereinfachte
+                                   Zusammenfassung des rechtsverbindlichen Lizenzvertrages in
+                                   allgemeinverständlicher Sprache </ref>
+               </p>
+               <p>
+                  <ref target="http://www.textgrid.de/Digitale-Bibliothek">Hinweise zur Lizenz und zur Digitalen Bibliothek</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+                                 Erstdruck 1797.
+                              </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Friedrich Schiller: Sämtliche Werke, Auf Grund der Originaldrucke herausgegeben von Gerhard Fricke und Herbert G. Göpfert in Verbindung mit Herbert Stubenrauch, Band 1–5, 3. Auflage, München: Hanser, 1962.</title>
+                  <author key="pnd:118607626">Schiller, Friedrich</author>
+               </titleStmt>
+               <extent>254-</extent>
+               <publicationStmt>
+                  <date>1962</date>
+                  <pubPlace>München</pubPlace>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="1759" notAfter="1805"/>
+         </creation>
+         <textClass>
+            <keywords scheme="http://textgrid.info/namespaces/metadata/core/2010#genre">
+               <term>verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+               <text>
+                  <body>
+                        
+                           
+                        
+                        
+                        
+                        <div type="text" xml:id="tg170.3">
+
+                           <div type="h4">
+                              <head type="h4" xml:id="tg170.3.1">
+                                 <pb n="254" xml:id="tg170.3.1.1"/>
+                                 <pb type="start" n="214" xml:id="tg170.3.1.2"/>Die Worte des Glaubens</head>
+
+                              <lg>
+                                 <l xml:id="tg170.3.2">Drei Worte nenn ich euch, inhaltschwer,</l>
+                                 <l xml:id="tg170.3.3">Sie gehen von Munde zu Munde,</l>
+                                 <l xml:id="tg170.3.4">Doch stammen sie nicht von außen her,</l>
+                                 <l xml:id="tg170.3.5">Das Herz nur gibt davon Kunde.</l>
+                                 <l xml:id="tg170.3.6">Dem Menschen ist aller Wert geraubt,</l>
+                                 <l xml:id="tg170.3.7">Wenn er nicht mehr an die drei Worte glaubt.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg170.3.8"/>
+                                 <l xml:id="tg170.3.9">Der Mensch ist frei geschaffen, ist frei,</l>
+                                 <l xml:id="tg170.3.10">Und würd er in Ketten geboren,</l>
+                                 <l xml:id="tg170.3.11">Laßt euch nicht irren des Pöbels Geschrei,</l>
+                                 <l xml:id="tg170.3.12">Nicht den Mißbrauch rasender Toren.</l>
+                                 <pb n="214" xml:id="tg170.3.13"/>
+                                 <l xml:id="tg170.3.14">Vor dem Sklaven, wenn er die Kette bricht,</l>
+                                 <l xml:id="tg170.3.15">Vor dem freien Menschen erzittert nicht.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg170.3.16"/>
+                                 <l xml:id="tg170.3.17">Und die Tugend, sie ist kein leerer Schall,</l>
+                                 <l xml:id="tg170.3.18">Der Mensch kann sie üben im Leben,</l>
+                                 <l xml:id="tg170.3.19">Und sollt er auch straucheln überall,</l>
+                                 <l xml:id="tg170.3.20">Er kann nach der göttlichen streben,</l>
+                                 <l xml:id="tg170.3.21">Und was kein Verstand der Verständigen sieht,</l>
+                                 <l xml:id="tg170.3.22">Das übet in Einfalt ein kindlich Gemüt.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg170.3.23"/>
+                                 <l xml:id="tg170.3.24">Und ein Gott ist, ein heiliger Wille lebt,</l>
+                                 <l xml:id="tg170.3.25">Wie auch der menschliche wanke,</l>
+                                 <l xml:id="tg170.3.26">Hoch über der Zeit und dem Raume webt</l>
+                                 <l xml:id="tg170.3.27">Lebendig der höchste Gedanke,</l>
+                                 <l xml:id="tg170.3.28">Und ob alles in ewigem Wechsel kreist,</l>
+                                 <l xml:id="tg170.3.29">Es beharret im Wechsel ein ruhiger Geist.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg170.3.30"/>
+                                 <l xml:id="tg170.3.31">Die drei Worte bewahret euch, inhaltschwer,</l>
+                                 <l xml:id="tg170.3.32">Sie pflanzet von Munde zu Munde,</l>
+                                 <l xml:id="tg170.3.33">Und stammen sie gleich nicht von außen her,</l>
+                                 <l xml:id="tg170.3.34">Euer Innres gibt davon Kunde,</l>
+                                 <l xml:id="tg170.3.35">Dem Menschen ist nimmer sein Wert geraubt,</l>
+                                 <l xml:id="tg170.3.36">Solang er noch an die drei Worte glaubt.</l>
+                              </lg>
+                              <lb xml:id="tg170.3.37"/>
+                           </div>
+                        </div>
+                     </body>
+               </text>
+            </TEI>

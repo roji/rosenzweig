@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://textgrid.info/namespaces/metadata/core/2010" xmlns:tgl="http://textgrid.info/namespaces/metadata/language/2010" xmlns:tgs="http://textgrid.info/namespaces/metadata/script/2010" xmlns:tgr="http://textgrid.info/namespaces/metadata/agent/2010" xml:id="tg73" n="/Literatur/M/Schiller, Friedrich/Gedichte/Gedichte (1789-1805)/Das Ideal und das Leben">
+   <teiHeader xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:a="http://www.textgrid.info/namespace/digibib/authors">
+      <fileDesc>
+         <titleStmt>
+            <title>Das Ideal und das Leben</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="handle">hdl:11858/00-1734-0000-0004-CF88-A</idno><idno type="TextGridUri">textgrid:v0rf.0</idno><availability>
+               
+               <p> Der annotierte Datenbestand der Digitalen Bibliothek inklusive Metadaten sowie
+                                   davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von
+                                   www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons
+                                   Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid) veröffentlicht. Die
+                                   Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden
+                                   allgemeinfreien Texte (Siehe auch Punkt 2 der Lizenzbestimmungen). </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+               </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/"> Eine vereinfachte
+                                   Zusammenfassung des rechtsverbindlichen Lizenzvertrages in
+                                   allgemeinverständlicher Sprache </ref>
+               </p>
+               <p>
+                  <ref target="http://www.textgrid.de/Digitale-Bibliothek">Hinweise zur Lizenz und zur Digitalen Bibliothek</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+                                 Erstdruck 1795 unter dem Titel »Das Reich der Schatten«, später auch unter dem Titel »Das Reich der Formen«.
+                              </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Friedrich Schiller: Sämtliche Werke, Auf Grund der Originaldrucke herausgegeben von Gerhard Fricke und Herbert G. Göpfert in Verbindung mit Herbert Stubenrauch, Band 1–5, 3. Auflage, München: Hanser, 1962.</title>
+                  <author key="pnd:118607626">Schiller, Friedrich</author>
+               </titleStmt>
+               <extent>187-</extent>
+               <publicationStmt>
+                  <date>1962</date>
+                  <pubPlace>München</pubPlace>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="1759" notAfter="1805"/>
+         </creation>
+         <textClass>
+            <keywords scheme="http://textgrid.info/namespaces/metadata/core/2010#genre">
+               <term>verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+               <text>
+                  <body>
+                        
+                           
+                        
+                        
+                        
+                        <div type="text" xml:id="tg73.3">
+
+                           <div type="h4">
+                              <head type="h4" xml:id="tg73.3.1">
+                                 <pb n="187" xml:id="tg73.3.1.1"/>
+                                 <pb type="start" n="201" xml:id="tg73.3.1.2"/>Das Ideal und das Leben</head>
+
+                              <lg>
+                                 <l xml:id="tg73.3.2">Ewigklar und spiegelrein und eben</l>
+                                 <l xml:id="tg73.3.3">Fließt das zephirleichte Leben</l>
+                                 <l xml:id="tg73.3.4">Im Olymp den Seligen dahin.</l>
+                                 <l xml:id="tg73.3.5">Monde wechseln und Geschlechter fliehen,</l>
+                                 <l xml:id="tg73.3.6">Ihrer Götterjugend Rosen blühen</l>
+                                 <l xml:id="tg73.3.7">Wandellos im ewigen Ruin.</l>
+                                 <l xml:id="tg73.3.8">Zwischen Sinnenglück und Seelenfrieden</l>
+                                 <l xml:id="tg73.3.9">Bleibt dem Menschen nur die bange Wahl;</l>
+                                 <l xml:id="tg73.3.10">Auf der Stirn des hohen Uraniden</l>
+                                 <l xml:id="tg73.3.11">Leuchtet ihr vermählter Strahl.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.12"/>
+                                 <l xml:id="tg73.3.13">Wollt ihr schon auf Erden Göttern gleichen,</l>
+                                 <l xml:id="tg73.3.14">Frei sein in des Todes Reichen,</l>
+                                 <l xml:id="tg73.3.15">Brechet nicht von seines Gartens Frucht.</l>
+                                 <l xml:id="tg73.3.16">An dem Scheine mag der Blick sich weiden,</l>
+                                 <l xml:id="tg73.3.17">Des Genusses wandelbare Freuden</l>
+                                 <l xml:id="tg73.3.18">Rächet schleunig der Begierde Flucht.</l>
+                                 <l xml:id="tg73.3.19">Selbst der Styx, der neunfach sie umwindet,</l>
+                                 <l xml:id="tg73.3.20">Wehrt die Rückkehr Ceres' Tochter nicht,</l>
+                                 <l xml:id="tg73.3.21">Nach dem Apfel greift sie, und es bindet</l>
+                                 <l xml:id="tg73.3.22">Ewig sie des Orkus Pflicht.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.23"/>
+                                 <l xml:id="tg73.3.24">Nur der Körper eignet jenen Mächten,</l>
+                                 <l xml:id="tg73.3.25">Die das dunkle Schicksal flechten,</l>
+                                 <l xml:id="tg73.3.26">Aber frei von jeder Zeitgewalt,</l>
+                                 <l xml:id="tg73.3.27">Die Gespielin seliger Naturen</l>
+                                 <l xml:id="tg73.3.28">Wandelt oben in des Lichtes Fluren,</l>
+                                 <l xml:id="tg73.3.29">Göttlich unter Göttern, die <hi rend="italic" xml:id="tg73.3.29.1">Gestalt.</hi>
+                                 </l>
+                                 <l xml:id="tg73.3.30">Wollt ihr hoch auf ihren Flügeln schweben,</l>
+                                 <l xml:id="tg73.3.31">Werft die Angst des Irdischen von euch.</l>
+                                 <l xml:id="tg73.3.32">Fliehet aus dem engen, dumpfen Leben</l>
+                                 <l xml:id="tg73.3.33">In des Ideales Reich!</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.34"/>
+                                 <l xml:id="tg73.3.35">Jugendlich, von allen Erdenmalen</l>
+                                 <l xml:id="tg73.3.36">Frei, in der Vollendung Strahlen</l>
+                                 <pb n="201" xml:id="tg73.3.37"/>
+                                 <l xml:id="tg73.3.38">Schwebet hier der Menschheit Götterbild,</l>
+                                 <l xml:id="tg73.3.39">Wie des Lebens schweigende Phantome</l>
+                                 <l xml:id="tg73.3.40">Glänzend wandeln an dem stygschen Strome,</l>
+                                 <l xml:id="tg73.3.41">Wie sie stand im himmlischen Gefild,</l>
+                                 <l xml:id="tg73.3.42">Ehe noch zum traurgen Sarkophage</l>
+                                 <l xml:id="tg73.3.43">Die Unsterbliche herunterstieg.</l>
+                                 <l xml:id="tg73.3.44">Wenn im Leben noch des Kampfes Waage</l>
+                                 <l xml:id="tg73.3.45">Schwankt, erscheinet hier der Sieg.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.46"/>
+                                 <l xml:id="tg73.3.47">Nicht vom Kampf die Glieder zu entstricken,</l>
+                                 <l xml:id="tg73.3.48">Den Erschöpften zu erquicken,</l>
+                                 <l xml:id="tg73.3.49">Wehet hier des Sieges duftger Kranz.</l>
+                                 <l xml:id="tg73.3.50">Mächtig, selbst wenn eure Sehnen ruhten,</l>
+                                 <l xml:id="tg73.3.51">Reißt das Leben euch in seine Fluten,</l>
+                                 <l xml:id="tg73.3.52">Euch die Zeit in ihren Wirbeltanz.</l>
+                                 <l xml:id="tg73.3.53">Aber sinkt des Mutes kühner Flügel</l>
+                                 <l xml:id="tg73.3.54">Bei der Schranken peinlichem Gefühl,</l>
+                                 <l xml:id="tg73.3.55">Dann erblicket von der Schönheit Hügel</l>
+                                 <l xml:id="tg73.3.56">Freudig das erflogne Ziel.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.57"/>
+                                 <l xml:id="tg73.3.58">Wenn es gilt, zu herrschen und zu schirmen,</l>
+                                 <l xml:id="tg73.3.59">Kämpfer gegen Kämpfer stürmen</l>
+                                 <l xml:id="tg73.3.60">Auf des Glückes, auf des Ruhmes Bahn,</l>
+                                 <l xml:id="tg73.3.61">Da mag Kühnheit sich an Kraft zerschlagen,</l>
+                                 <l xml:id="tg73.3.62">Und mit krachendem Getös die Wagen</l>
+                                 <l xml:id="tg73.3.63">Sich vermengen auf bestäubtem Plan.</l>
+                                 <l xml:id="tg73.3.64">Mut allein kann hier den Dank erringen,</l>
+                                 <l xml:id="tg73.3.65">Der am Ziel des Hippodromes winkt,</l>
+                                 <l xml:id="tg73.3.66">Nur der Starke wird das Schicksal zwingen,</l>
+                                 <l xml:id="tg73.3.67">Wenn der Schwächling untersinkt.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.68"/>
+                                 <l xml:id="tg73.3.69">Aber der, von Klippen eingeschlossen,</l>
+                                 <l xml:id="tg73.3.70">Wild und schäumend sich ergossen,</l>
+                                 <l xml:id="tg73.3.71">Sanft und eben rinnt des Lebens Fluß</l>
+                                 <l xml:id="tg73.3.72">Durch der Schönheit stille Schattenlande,</l>
+                                 <l xml:id="tg73.3.73">Und auf seiner Wellen Silberrande</l>
+                                 <l xml:id="tg73.3.74">Malt Aurora sich und Hesperus.</l>
+                                 <pb n="202" xml:id="tg73.3.75"/>
+                                 <l xml:id="tg73.3.76">Aufgelöst in zarter Wechselliebe,</l>
+                                 <l xml:id="tg73.3.77">In der Anmut freiem Bund vereint,</l>
+                                 <l xml:id="tg73.3.78">Ruhen hier die ausgesöhnten Triebe,</l>
+                                 <l xml:id="tg73.3.79">Und verschwunden ist der Feind.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.80"/>
+                                 <l xml:id="tg73.3.81">Wenn, das Tote bildend zu beseelen,</l>
+                                 <l xml:id="tg73.3.82">Mit dem Stoff sich zu vermählen,</l>
+                                 <l xml:id="tg73.3.83">Tatenvoll der Genius entbrennt,</l>
+                                 <l xml:id="tg73.3.84">Da, da spanne sich des Fleißes Nerve,</l>
+                                 <l xml:id="tg73.3.85">Und beharrlich ringend unterwerfe</l>
+                                 <l xml:id="tg73.3.86">Der Gedanke sich das Element.</l>
+                                 <l xml:id="tg73.3.87">Nur dem Ernst, den keine Mühe bleichet,</l>
+                                 <l xml:id="tg73.3.88">Rauscht der Wahrheit tief versteckter Born,</l>
+                                 <l xml:id="tg73.3.89">Nur des Meißels schwerem Schlag erweichet</l>
+                                 <l xml:id="tg73.3.90">Sich des Marmors sprödes Korn.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.91"/>
+                                 <l xml:id="tg73.3.92">Aber dringt bis in der Schönheit Sphäre,</l>
+                                 <l xml:id="tg73.3.93">Und im Staube bleibt die Schwere</l>
+                                 <l xml:id="tg73.3.94">Mit dem Stoff, den sie beherrscht, zurück.</l>
+                                 <l xml:id="tg73.3.95">Nicht der Masse qualvoll abgerungen,</l>
+                                 <l xml:id="tg73.3.96">Schlank und leicht, wie aus dem Nichts gesprungen,</l>
+                                 <l xml:id="tg73.3.97">Steht das Bild vor dem entzückten Blick.</l>
+                                 <l xml:id="tg73.3.98">Alle Zweifel, alle Kämpfe schweigen</l>
+                                 <l xml:id="tg73.3.99">In des Sieges hoher Sicherheit,</l>
+                                 <l xml:id="tg73.3.100">Ausgestoßen hat es jeden Zeugen</l>
+                                 <l xml:id="tg73.3.101">Menschlicher Bedürftigkeit.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.102"/>
+                                 <l xml:id="tg73.3.103">Wenn ihr in der Menschheit traurger Blöße</l>
+                                 <l xml:id="tg73.3.104">Steht vor des Gesetzes Größe,</l>
+                                 <l xml:id="tg73.3.105">Wenn dem Heiligen die Schuld sich naht,</l>
+                                 <l xml:id="tg73.3.106">Da erblasse vor der Wahrheit Strahle</l>
+                                 <l xml:id="tg73.3.107">Eure Tugend, vor dem Ideale</l>
+                                 <l xml:id="tg73.3.108">Fliehe mutlos die beschämte Tat.</l>
+                                 <l xml:id="tg73.3.109">Kein Erschaffner hat dies Ziel erflogen,</l>
+                                 <l xml:id="tg73.3.110">Über diesen grauenvollen Schlund</l>
+                                 <l xml:id="tg73.3.111">Trägt kein Nachen, keiner Brücke Bogen,</l>
+                                 <l xml:id="tg73.3.112">Und kein Anker findet Grund.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.113"/>
+                                 <pb n="203" xml:id="tg73.3.114"/>
+                                 <l xml:id="tg73.3.115">Aber flüchtet aus der Sinne Schranken</l>
+                                 <l xml:id="tg73.3.116">In die Freiheit der Gedanken,</l>
+                                 <l xml:id="tg73.3.117">Und die Furchterscheinung ist entflohn,</l>
+                                 <l xml:id="tg73.3.118">Und der ewge Abgrund wird sich füllen;</l>
+                                 <l xml:id="tg73.3.119">Nehmt die Gottheit auf in euren Willen,</l>
+                                 <l xml:id="tg73.3.120">Und sie steigt von ihrem Weltenthron.</l>
+                                 <l xml:id="tg73.3.121">Des Gesetzes strenge Fessel bindet</l>
+                                 <l xml:id="tg73.3.122">Nur den Sklavensinn, der es verschmäht,</l>
+                                 <l xml:id="tg73.3.123">Mit des Menschen Widerstand verschwindet</l>
+                                 <l xml:id="tg73.3.124">Auch des Gottes Majestät.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.125"/>
+                                 <l xml:id="tg73.3.126">Wenn der Menschheit Leiden euch umfangen,</l>
+                                 <l xml:id="tg73.3.127">Wenn Laokoon der Schlangen</l>
+                                 <l xml:id="tg73.3.128">Sich erwehrt mit namenlosem Schmerz,</l>
+                                 <l xml:id="tg73.3.129">Da empöre sich der Mensch! Es schlage</l>
+                                 <l xml:id="tg73.3.130">An des Himmels Wölbung seine Klage</l>
+                                 <l xml:id="tg73.3.131">Und zerreiße euer fühlend Herz!</l>
+                                 <l xml:id="tg73.3.132">Der Natur furchtbare Stimme siege,</l>
+                                 <l xml:id="tg73.3.133">Und der Freude Wange werde bleich,</l>
+                                 <l xml:id="tg73.3.134">Und der heilgen Sympathie erliege</l>
+                                 <l xml:id="tg73.3.135">Das Unsterbliche in euch!</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.136"/>
+                                 <l xml:id="tg73.3.137">Aber in den heitern Regionen,</l>
+                                 <l xml:id="tg73.3.138">Wo die reinen Formen wohnen,</l>
+                                 <l xml:id="tg73.3.139">Rauscht des Jammers trüber Sturm nicht mehr.</l>
+                                 <l xml:id="tg73.3.140">Hier darf Schmerz die Seele nicht durchschneiden,</l>
+                                 <l xml:id="tg73.3.141">Keine Träne fließt hier mehr dem Leiden,</l>
+                                 <l xml:id="tg73.3.142">Nur des Geistes tapfrer Gegenwehr.</l>
+                                 <l xml:id="tg73.3.143">Lieblich, wie der Iris Farbenfeuer</l>
+                                 <l xml:id="tg73.3.144">Auf der Donnerwolke duftgem Tau,</l>
+                                 <l xml:id="tg73.3.145">Schimmert durch der Wehmut düstern Schleier</l>
+                                 <l xml:id="tg73.3.146">Hier der Ruhe heitres Blau.</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.147"/>
+                                 <l xml:id="tg73.3.148">Tief erniedrigt zu des Feigen Knechte,</l>
+                                 <l xml:id="tg73.3.149">Ging in ewigem Gefechte</l>
+                                 <l xml:id="tg73.3.150">Einst Alcid des Lebens schwere Bahn,</l>
+                                 <l xml:id="tg73.3.151">Rang mit Hydern und umarmt' den Leuen,</l>
+                                 <pb n="204" xml:id="tg73.3.152"/>
+                                 <l xml:id="tg73.3.153">Stürzte sich, die Freunde zu befreien,</l>
+                                 <l xml:id="tg73.3.154">Lebend in des Totenschiffers Kahn.</l>
+                                 <l xml:id="tg73.3.155">Alle Plagen, alle Erdenlasten</l>
+                                 <l xml:id="tg73.3.156">Wälzt der unversöhnten Göttin List</l>
+                                 <l xml:id="tg73.3.157">Auf die willgen Schultern des Verhaßten,</l>
+                                 <l xml:id="tg73.3.158">Bis sein Lauf geendigt ist –</l>
+                              </lg>
+                              <lg>
+                                 <lb xml:id="tg73.3.159"/>
+                                 <l xml:id="tg73.3.160">Bis der Gott, des Irdischen entkleidet,</l>
+                                 <l xml:id="tg73.3.161">Flammend sich vom Menschen scheidet</l>
+                                 <l xml:id="tg73.3.162">Und des Äthers leichte Lüfte trinkt.</l>
+                                 <l xml:id="tg73.3.163">Froh des neuen, ungewohnten Schwebens,</l>
+                                 <l xml:id="tg73.3.164">Fließt er aufwärts, und des Erdenlebens</l>
+                                 <l xml:id="tg73.3.165">Schweres Traumbild sinkt und sinkt und sinkt.</l>
+                                 <l xml:id="tg73.3.166">Des Olympus Harmonien empfangen</l>
+                                 <l xml:id="tg73.3.167">Den Verklärten in Kronions Saal,</l>
+                                 <l xml:id="tg73.3.168">Und die Göttin mit den Rosenwangen</l>
+                                 <l xml:id="tg73.3.169">»Reicht ihm lächelnd den Pokal.«</l>
+                              </lg>
+                              <lb xml:id="tg73.3.170"/>
+                           </div>
+                        </div>
+                     </body>
+               </text>
+            </TEI>
