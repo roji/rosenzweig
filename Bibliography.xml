@@ -228,6 +228,14 @@
                        <author>Goethe</author>
                        <title>Das Göttliche</title>
                     </bibl>
+                    <bibl xml:id="G.Novalis_Lied_der_Toten">
+                       <author>Novalis</author>
+                       <title>Das Lied der Toten</title>
+                    </bibl> 
+                    <bibl xml:id="G.Schelling_Untersuchungen">
+                       <author>Schelling</author>
+                       <title>Philosophische Untersuchungen über das Wesen der menschlichen Freiheit und die damit zusammenhängenden Gegenstände</title>
+                    </bibl>
                  </bibl>
                  <listBibl type="RomanLit">
                     <bibl xml:id="L.tertulian_deCarne">
@@ -248,6 +256,10 @@
                  <listBibl type="RussianLit">
                     <bibl/>
                  </listBibl>
+                 <listBibl type="ENGlishLit">
+                    <bibl xml:id="E.Shakespeare_RichardIII">
+                       <author>Shakespeare</author>
+                       <title>Richard III</title></bibl>                 </listBibl>
                  
                  <!--           <ListBibl>Secondary<head> Secondary Sources (which point to the re-uses) </head>
 -->
