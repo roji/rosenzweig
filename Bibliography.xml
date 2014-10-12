@@ -267,8 +267,8 @@
            </listBibl>
            <listBibl type="Secondary">
               <head> Secondary Bibliography: "ana" </head>
-              <biblStruct>
-                 <analytic xml:id="S.Sax1">
+              <biblStruct xml:id="S.Sax1">
+                 <analytic>
                     <author><persName>Benjamin E. Sax</persName></author>
                     <title>Das geflügelte Wort: Franz Rosenzweig as
                        Post-Goethekenner</title>
@@ -294,8 +294,8 @@
                     </imprint>
                  </monogr>
               </biblStruct>
-              <biblStruct>
-                 <analytic xml:id="S.Mayer1">
+              <biblStruct xml:id="S.Mayer1">
+                 <analytic>
                     <author><persName>Annemarie</persName>
                        <surname>Mayer</surname></author>
                     <title>Hinweise und Verzeichnisse</title>
@@ -325,8 +325,8 @@
                     </imprint>
                  </monogr>
               </biblStruct>
-              <biblStruct>
-                 <analytic xml:id="S.Glatzer1">
+              <biblStruct xml:id="S.Glatzer1">
+                 <analytic>
                     <author><persName>Glatzer, Nahum</persName></author>
                     <title>Nachweis der Jüdischen Quellen</title>
                  </analytic>

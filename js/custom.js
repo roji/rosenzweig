@@ -7,9 +7,14 @@ function ParseBibliography()
     {
         console.log('Loading ' + $(this).attr('id') + ': ' + $('.author', $(this)).text());
         var quoteType = $(this).closest('.listBibl').data('type');
+
+        var authorEl = $('.author', $(this));
+        if ($('.persName', $(this)).length)
+            authorEl = $('.persName', $(this));
+
         var bib = {
            type:   quoteType,
-           author: $('.author', $(this)).text(),
+           author: $(authorEl).text(),
            title:  $('.titlem', $(this)).text(),
         };
         var link = $('.link_ptr', $(this));
@@ -20,9 +25,9 @@ function ParseBibliography()
     });
 }
 
-function AttachTooltip(quoteEl, bibRecord)
+function AttachTooltip(quoteEl, primaryBibRecord)
 {
-    if (typeof bibRecord == 'undefined') {
+    if (typeof primaryBibRecord == 'undefined') {
         $(quoteEl).tooltipster({
             content: $('<span>Source not found in bibliography list: ' + $(quoteEl).data('source') + '</span>')
         });
@@ -35,29 +40,61 @@ function AttachTooltip(quoteEl, bibRecord)
             text: $(quoteEl).text()
     }));
     
-    if ('author' in bibRecord)
-        wrapper.append($('<span/>', {
+    // PRIMARY BIBLIOGRAPHY
+
+    var primaryBibEl = $('<p/>', { 'class' : 'primary_bib' });
+    wrapper.append(primaryBibEl);
+
+    if ('author' in primaryBibRecord)
+        primaryBibEl.append($('<span/>', {
             'class': 'author',
-            text: bibRecord.author
+            text: primaryBibRecord.author
         }));
 
-    if ('author' in bibRecord && 'title' in bibRecord)
-        wrapper.append(', ')
+    if ('author' in primaryBibRecord && 'title' in primaryBibRecord)
+        primaryBibEl.append(', ')
         
-    if ('title' in bibRecord)
-        wrapper.append($('<span/>', {
+    if ('title' in primaryBibRecord)
+        primaryBibEl.append($('<span/>', {
             'class': 'title',
-            text: bibRecord.title
+            text: primaryBibRecord.title
         }));
 
     var pageno = $(quoteEl).data('n')
     if (typeof pageno != 'undefined')
-        wrapper
+        primaryBibEl
             .append(', ')
             .append($('<span/>', {
                 'class': 'pageno',
                 text: pageno
             }));
+
+    // SECONDARY BIBLIOGRAPHY
+
+    var ana = $(quoteEl).data('ana').replace(/^#/, '');
+    var secondaryBibRecord = bibliography[ana];
+    if (typeof secondaryBibRecord != 'undefined')
+    {
+        var secondaryBibEl = $('<p/>', { 'class' : 'secondary_bib' });
+        wrapper.append(secondaryBibEl);
+
+        secondaryBibEl.append($('<span/>', { text: "Noted in: " }));
+
+        if ('author' in secondaryBibRecord)
+            secondaryBibEl.append($('<span/>', {
+                'class': 'author',
+                text: secondaryBibRecord.author
+            }));
+
+        if ('author' in secondaryBibRecord && 'title' in secondaryBibRecord)
+            secondaryBibEl.append(', ')
+
+        if ('title' in secondaryBibRecord)
+            secondaryBibEl.append($('<span/>', {
+                'class': 'title',
+                text: secondaryBibRecord.title
+            }));
+    }
 
     $(quoteEl).tooltipster({ content: wrapper });
 }
@@ -130,17 +167,17 @@ $(document).ready(function()
             return;
         }
         var source = $(this).data('source').replace(/^#/, '');
-        var bibRecord = bibliography[source];
-        if (typeof bibRecord == 'undefined') {
-            console.log("Quote has unknown bibliography source: " + $(this).data('source'));
+        var primaryBibRecord = bibliography[source];
+        if (typeof primaryBibRecord == 'undefined') {
+            console.log("Quote has unknown primary bibliography source: " + $(this).data('source'));
         } else {
             // Add a CSS class to the quote based on its bibliography type (e.g. GermanLit)
-            $(this).addClass(bibRecord.type);
+            $(this).addClass(primaryBibRecord.type);
         }
         
-        AttachTooltip(this, bibRecord);
-        if (typeof bibRecord != 'undefined' && typeof bibRecord.link != 'undefined')
-          AttachLink(this, bibRecord);
+        AttachTooltip(this, primaryBibRecord);
+        if (typeof primaryBibRecord != 'undefined' && typeof primaryBibRecord.link != 'undefined')
+          AttachLink(this, primaryBibRecord);
     });
     
     AttachSplitPane();
