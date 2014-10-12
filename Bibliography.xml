@@ -52,7 +52,14 @@
            <listBibl type="Primary">
               
               <head> Primary Bibliography: "source" </head>
-              <listBibl type="BibleOT">
+<!--            xmlid's for luther:
+                 Genesis 1:1             tg1520.2.2.s71q.0
+                 hosea 13:14             tg2421.2.15.s71q.0    2421 for chapter, 2 for text, 15 for verse+1
+                 Korinth 1 15:55 xml:id="tg2642.2.56.s71q.0"
+                 
+                 
+                 tacitus (X2): "http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:latinLit:phi1351.phi002.perseus-lat1:46.5"
+-->              <listBibl type="BibleOT">
                  <bibl xml:id="B.Genesis"><author>Hebrew Bible</author><title>Genesis</title></bibl>
                  <bibl xml:id="B.Exodos"><author>Hebrew Bible</author><title>Exodos</title></bibl>
                  <bibl xml:id="B.Leviticus"><author>Hebrew Bible</author><title>Leviticus</title></bibl>
