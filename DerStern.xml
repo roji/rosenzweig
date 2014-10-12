@@ -78,7 +78,7 @@
 						<p xml:id="ds1.3.4.2">VOM TODE, von der Furcht des Todes, hebt alles
 							Erkennen des All an. <quote corresp="Sinai1"
 								source="#G.Schiller_DasIdeal" xml:lang="de" n="31" ana="#S.Glatzer1"
-								>Die Angst des Irdischen abzuwerfen</quote>,<quote ana="#S.Sax1"
+								xml:base="tg73.3">Die Angst des Irdischen abzuwerfen</quote>,<quote ana="#S.Sax1"
 									n="15:55" corresp="Sinai3" xml:lang="De" source="#NT.1Corinthians" xml:base="tg2642.2.56.s71q.0" >
 									dem Tod seinen Giftstachel, <quote ana="#S.Sax1" n="13:14"
 									source="#B.Hosea" corresp="Sinai2" xml:lang="De"
@@ -480,7 +480,7 @@
 							Wahrheitswert in dem Be <pb break="no" n="13"/> gründen dieser Allheit.
 							Darum bedeutet ein erfolgreicher Aufstand gegen die Allheit der Welt
 							zugleich eine Leugnung der Einheit des Denkens. In jenem ersten Satz der
-							Philosophie, dem <quote corresp="Ynon24" source="O.paralipomena" xml:base="http://www.archive.org/stream/franzrosenzweig_04_reel04#page/n277/mode/1up"><quote source="#G.Thales
+							Philosophie, dem <quote corresp="Ynon24" source="O.paralipomena" xml:base="http://www.archive.org/stream/franzrosenzweig_04_reel04#page/n277/mode/1up"><quote source="#GreekLit.Thales
 								">"Alles ist Wasser"</quote></quote>, steckt schon die
 							Voraussetzung der Denkbarkeit der Welt, wenn auch erst Parmenides die
 							Identität von Sein und Denken aussprach. Denn es ist keine
@@ -1667,7 +1667,7 @@
 								und <quote ana="#S.Mayer1" corresp="jenny1" n="35, 5"
 									source="#B.Isaiah" xml:lang="de" xml:base="tg2255.2.6.s71q.0"><quote
 										ana="#S.Mayer1" corresp="jenny2" n="11, 5"
-										source="#NT.Matthew" xml:lang="de">Blinde erst sehend, Taube
+										source="#NT.Matthew" xml:lang="de" xml:base="tg2499.2.6.s71q.0">Blinde erst sehend, Taube
 										erst hörend</quote></quote> macht. Und selbst wo der Mensch,
 								wie es eben in jenen Kreisen der indischen Gottesfreunde geschah,
 								die höchste Form der Liebe zu erschwingen meinte, indem er sich
@@ -1690,7 +1690,7 @@
 									<quote ana="#S.Mayer1" corresp="jenny3" n="29, 14"
 										source="#B.Isaiah" xml:lang="de" xml:base="tg2249.2.15.s71q.0"><quote ana="#S.Mayer1"
 										corresp="jenny4" n="1, 19" source="#NT.1Corinthians"
-										xml:lang="de">Verstand der Verständigen, keine Weisheit der
+										xml:lang="de" xml:base="tg2628.2.20.s71q.0">Verstand der Verständigen, keine Weisheit der
 										Weisen</quote></quote> je zugeben dürfte. Und wäre zugleich
 								nötig, daß die Kluft zwischen Menschlich-Weltlichem und Göttlichem,
 								die eben in der Unaustilgbarkeit der Eigennamen bezeichnet ist, für
@@ -2660,7 +2660,7 @@
 							eigentlich zum Problem, zum Allerfragwürdigsten, gemacht hat. Vom
 							erkennenden Ich lehrt er, daß es nur in der Beziehung auf das Erkennen,
 								<quote ana="#S.Mayer1" corresp="jenny5" n="7, 16"
-								source="#NT.Matthew" xml:lang="de">an seinen Früchten also, nicht
+									source="#NT.Matthew" xml:lang="de" xml:base="tg2495.2.17.s71q.0">an seinen Früchten also, nicht
 								"an sich selbst", zu erkennen</quote> ist. Und gar vom wollenden
 							weiß er, daß die eigentliche Moralität, Verdienst und Schuld, der
 							Handlungen, selbst unsrer eigenen, uns stets verborgen bleibt. Damit
@@ -3313,8 +3313,8 @@
 								selbständige Macht und Bedeutung; es gehört zu den Elementen der
 								Besonderheit, auf die das Selbst das Siegel seines Trotzes drückt,
 								dies immer gleiche Siegel – si fractus illabatur orbis: <quote
-									ana="#S.Mayer1" corresp="jenny8" n="16, 30" source="#NT.Jude"
-									xml:lang="de">Sterbe meine Seele</quote> mit den Philistern!</p>
+									ana="#S.Mayer1" corresp="jenny8" n="16, 30" source="#B.Judg"
+									xml:lang="de" xml:base="tg1752.2.31.s71q.0">Sterbe meine Seele</quote> mit den Philistern!</p>
 						</div>
 					</div>
 
@@ -4079,7 +4079,7 @@
 							verdrängen. Darum die Freude am Wunder. Je mehr Wunder, je mehr
 							Vorsehung. Und eben die unbegrenzte Vorsehung, dies, daß wirklich ohne
 							Gottes Willen <quote ana="#S.Mayer1" corresp="jenny14" n="10, 30"
-								source="#NT.Matthew" xml:lang="de"><quote ana="#S.Mayer1"
+								source="#NT.Matthew" xml:lang="de" xml:base="tg2498.2.31.s71q.0"><quote ana="#S.Mayer1"
 									corresp="jenny15" n="14, 45" source="#B.1Samuel" xml:lang="de"
 									xml:base="tg1777.2.46.s71q.0">kein Haar vom Haupte des Menschen</quote></quote> fällt, ist
 							der neue Begriff von Gott, den die Offenbarung bringt; der Begriff,
@@ -4969,7 +4969,7 @@
 								diesen <quote ana="#S.Mayer1" corresp="jenny19" n="118, 22"
 									source="#B.Psalms" xml:lang="de" xml:base="#tg672.2.25.s71q.0"><quote ana="#S.Mayer1"
 										corresp="jenny20" n="21, 42" source="#NT.Matthew"
-										xml:lang="de">Stein, den wir beim Aufbau</quote></quote> des
+										xml:lang="de" xml:base="tg2509.2.43.s71q.0">Stein, den wir beim Aufbau</quote></quote> des
 								Schöpferbegriffs ausdrücklich verwarfen, jetzt etwa zum Eckstein
 								machen? Zum Eckstein mit nichten, und auch nicht "machen", sondern:
 								als Grundstein – erkennen. Denn zwar nicht in der Schöpfertat des
@@ -5027,7 +5027,7 @@
 							den Zusammenhang mit dem "Alten Testament", der Talmud durch die
 							behauptete durchgängige logische Ableitbarkeit daraus, das Neue
 							Testament <quote ana="#S.Mayer1" corresp="jenny21" n="2, 15"
-								source="#NT.Matthew" xml:lang="de">durch den behaupteten
+								source="#NT.Matthew" xml:lang="de" xml:base="tg2490.2.16.s71q.0">durch den behaupteten
 								durchgängigen historischen Erfüllungscharakter</quote> ihm
 							gegenüber. Indem also Muhamed die Begriffe der Offenbarung äußerlich
 							übernahm, blieb er in den Grundbegriffen der Schöpfung mit Notwendigkeit
@@ -17478,11 +17478,11 @@
 								die "ganze" Wahrheit auf sich beruhen läßt und dennoch den Anteil,
 								an den man sich hält, für die ewige Wahrheit erkennt. So muß es
 								geschehen, weil es hier um Ewiges geht. <quote n="25:8"
-									ana="#S.Glatzer1" source="#B.Isaiah" corresp="ynon4" xml:base="tg2245.2.9.s71q.0">I<quote
+									ana="#S.Glatzer1" source="#B.Isaiah" corresp="ynon4" xml:base="tg2245.2.9.s71q.0"><quote
 										ana="#WYGODA" n="15:55" source="#NT.1Corinthians"
 										corresp="ynon5"
-										xml:base="http://www.obohu.cz/bible/index.php?styl=LUT1&amp;kap=15&amp;k=1K"
-										>m Ewigen wird der Triumph über den Tod, der darin
+										xml:base="#tg1368.2.15.s71q.0"
+										>Im Ewigen wird der Triumph über den Tod, der darin
 										verschlungen ist, gefeiert</quote></quote>. Im Triumphzug
 								werden des Tods zerbrochene Waffen aufgeführt. Der Tod hatte alles
 								Leben abmähen wollen, daß es nicht bis hin zum ewigen Ende lebte. Er
