@@ -2,6 +2,16 @@
   display: none;
 }
 
+/* Hide later books of DerStern for now */
+#ds2, #ds3 {
+  display: none;
+}
+
+#ds1\.5, #ds1\.6, #ds1\.7 {
+  display: none;
+}
+
+/* Tooltip styling */
 .quote_tooltip .text {
   font-style: italic;
 }
@@ -71,5 +81,4 @@ h2 {
 h3 {
   font-size: 120%;
 }
-
 
