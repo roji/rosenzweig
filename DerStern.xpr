@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>DerStern.xml</String>
+                                    <String>Bibliography.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DerStern</String>
+                                        <String>Source</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,7 +25,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Bibliography.xml</String>
+                                    <String>DerStern.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

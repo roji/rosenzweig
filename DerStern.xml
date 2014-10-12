@@ -79,10 +79,10 @@
 							Erkennen des All an. <quote corresp="Sinai1"
 								source="#G.Schiller_DasIdeal" xml:lang="de" n="31" ana="#S.Glatzer1"
 								>Die Angst des Irdischen abzuwerfen</quote>,<quote ana="#S.Sax1"
-									n="15:55" corresp="Sinai3" xml:lang="De" source="#NT.1Corinthians">
+									n="15:55" corresp="Sinai3" xml:lang="De" source="#NT.1Corinthians" xml:base="tg2642.2.56.s71q.0" >
 									dem Tod seinen Giftstachel, <quote ana="#S.Sax1" n="13:14"
 									source="#B.Hosea" corresp="Sinai2" xml:lang="De"
-									xml:base="http://www.sefaria.org/Hosea.13.14">dem Hades seinen
+									xml:base="tg2421.2.15.s71q.0">dem Hades seinen
 									Pesthauch zu nehmen</quote></quote>, des vermißt sich die
 							Philosophie. Alles Sterbliche lebt in dieser Angst des Todes, jede neue
 							Geburt mehrt die Angst um einen neuen Grund, denn sie mehrt das
@@ -141,7 +141,7 @@
 							keinen Wider-stand mehr entgegensetzt. Einmal in diesen Nebel alles
 							eingesponnen, wäre freilich <quote ana="#S.Glatzer1" source="#B.Isaiah"
 								n="25:8" corresp="ynon3"><quote ana="#WYGODA" n="15:55"
-									source="#NT.1Corinthians" corresp="ynon6">der Tod verschlungen,
+									source="#NT.1Corinthians" corresp="ynon6" xml:base="tg2642.2.56.s71q.0">der Tod verschlungen,
 									wenn auch nicht in den ewigen Sieg</quote></quote>, so doch in
 							die eine und allgemeine Nacht des Nichts. Und es ist der letzte Schluß
 							dieser Weisheit: der Tod sei – Nichts. Aber in Wahrheit ist das kein
@@ -1106,7 +1106,7 @@
 							Grund" noch sonst ein irgend mit Eckharts, Böhmes oder Schellings Worten
 							Benennbares. Es ist nicht <quote ana="#S.Glatzer1" n="1:1"
 								source="#B.Genesis"
-								xml:base="http://www.obohu.cz/bible/index.php?styl=BRU&amp;k=Gn&amp;kap=1"
+								xml:base="tg1520.2.2.s71q.0"
 								corresp="ynon7">im Anfang.</quote></p>
 						<p xml:id="ds1.4.4.3"><quote>Im Anfang ist das Ja. Und da das Ja</quote>
 							also nicht auf das Nichts <pb break="yes" n="29"/> gehen darf, so muß es
@@ -1578,7 +1578,7 @@
 								entworfen, nach denen bis zum heutigen Tag jedes Gebäude errichtet
 								werden muß, wohin das Denken über Gott sich vor der Stimme des
 								wahren Gottes flüchten will. Hier allein ist es vor dieser Stimme
-								sicher, - <quote ana="#S.Amir" corresp="Ynon22" n="5:46" source="#L.Tacitus_Germania"  xml:base="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:latinLit:phi1351.phi002.perseus-lat1:46.5">securus adversus deos</quote> so gut wie adversus Deum. Von hier
+								sicher, - <quote ana="#S.Amir" corresp="Ynon22" n="5:46" source="#L.Tacitus_Germania"  xml:base="urn:cts:latinLit:phi1351.phi002.perseus-lat1:46.5">securus adversus deos</quote> so gut wie adversus Deum. Von hier
 								führt kein Weg mehr zurück. Das Nichts ist ein fester Pflock; was an
 								ihn angepflöckt ist, reißt sich nicht mehr los. Und nur weil diese
 								letzte Abstraktion von allem göttlichen Leben dem lebendigen Selbst

@@ -54,51 +54,52 @@
               <head> Primary Bibliography: "source" </head>
 <!--            xmlid's for luther:
                  Genesis 1:1             tg1520.2.2.s71q.0
-                 hosea 13:14             tg2421.2.15.s71q.0    2421 for chapter, 2 for text, 15 for verse+1
-                 Korinth 1 15:55 xml:id="tg2642.2.56.s71q.0"
-                 
-                 
+                for the chech site: http://www.obohu.cz/bible/index.php?styl=BRU&amp;k=Gn&amp;kap=1
+
+   <ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/>
+
                  tacitus (X2): "http://www.perseus.tufts.edu/hopper/text?doc="
 -->              <listBibl type="BibleOT">
-                 <bibl xml:id="B.Genesis"><author>Hebrew Bible</author><title>Genesis</title></bibl>
-                 <bibl xml:id="B.Exodos"><author>Hebrew Bible</author><title>Exodos</title></bibl>
-                 <bibl xml:id="B.Leviticus"><author>Hebrew Bible</author><title>Leviticus</title></bibl>
-                 <bibl xml:id="B.Numbers"><author>Hebrew Bible</author><title>Numbers</title></bibl>
-                 <bibl xml:id="B.Deuteronomy"><author>Hebrew Bible</author><title>Deuteronomy</title></bibl>
-                 <bibl xml:id="B.Joshua"><author>Hebrew Bible</author><title>Joshua</title></bibl>
-                 <bibl xml:id="B.Judges"><author>Hebrew Bible</author><title>Judges</title></bibl>
-                 <bibl xml:id="B.Ruth"><author>Hebrew Bible</author><title>Ruth</title></bibl>
-                 <bibl xml:id="B.1Samuel"><author>Hebrew Bible</author><title>1 Samuel</title></bibl>
-                 <bibl xml:id="B.2Samuel"><author>Hebrew Bible</author><title>2 Samuel</title></bibl>
-                 <bibl xml:id="B.1Kings"><author>Hebrew Bible</author><title>1 Kings</title></bibl>
-                 <bibl xml:id="B.2Kings"><author>Hebrew Bible</author><title>2 Kings</title></bibl>
-                 <bibl xml:id="B.1Chronicles"><author>Hebrew Bible</author><title>1 Chronicles</title></bibl>
-                 <bibl xml:id="B.2Chronicles"><author>Hebrew Bible</author><title>2 Chronicles</title></bibl>
-                 <bibl xml:id="B.Ezra"><author>Hebrew Bible</author><title>Ezra</title></bibl>
-                 <bibl xml:id="B.Nehemiah"><author>Hebrew Bible</author><title>Nehemiah</title></bibl>
-                 <bibl xml:id="B.Esther"><author>Hebrew Bible</author><title>Esther</title></bibl>
-                 <bibl xml:id="B.Job"><author>Hebrew Bible</author><title>Job</title></bibl>
-                 <bibl xml:id="B.Psalms"><author>Hebrew Bible</author><title>Psalms</title></bibl>
-                 <bibl xml:id="B.Proverbs"><author>Hebrew Bible</author><title>Proverbs</title></bibl>
-                 <bibl xml:id="B.Ecclesiastes"><author>Hebrew Bible</author><title>Ecclesiastes</title></bibl>
-                 <bibl xml:id="B.SongofS"><author>Hebrew Bible</author><title>Song of Solomon</title></bibl>
-                 <bibl xml:id="B.Isaiah"><author>Hebrew Bible</author><title>Isaiah</title></bibl>
-                 <bibl xml:id="B.Jeremiah"><author>Hebrew Bible</author><title>Jeremiah</title></bibl>
-                 <bibl xml:id="B.Lamentations"><author>Hebrew Bible</author><title>Lamentations</title></bibl>
-                 <bibl xml:id="B.Ezekiel"><author>Hebrew Bible</author><title>Ezekiel</title></bibl>
-                 <bibl xml:id="B.Daniel"><author>Hebrew Bible</author><title>Daniel</title></bibl>
-                 <bibl xml:id="B.Hosea"><author>Hebrew Bible</author><title>Hosea</title></bibl>
-                 <bibl xml:id="B.Joel"><author>Hebrew Bible</author><title>Joel</title></bibl>
-                 <bibl xml:id="B.Amos"><author>Hebrew Bible</author><title>Amos</title></bibl>
-                 <bibl xml:id="B.Obadiah"><author>Hebrew Bible</author><title>Obadiah</title></bibl>
-                 <bibl xml:id="B.Jonah"><author>Hebrew Bible</author><title>Jonah</title></bibl>
-                 <bibl xml:id="B.Micah"><author>Hebrew Bible</author><title>Micah</title></bibl>
-                 <bibl xml:id="B.Nahum"><author>Hebrew Bible</author><title>Nahum</title></bibl>
-                 <bibl xml:id="B.Habakkuk"><author>Hebrew Bible</author><title>Habakkuk</title></bibl>
-                 <bibl xml:id="B.Zephaniah"><author>Hebrew Bible</author><title>Zephaniah</title></bibl>
-                 <bibl xml:id="B.Haggai"><author>Hebrew Bible</author><title>Haggai</title></bibl>
-                 <bibl xml:id="B.Zechariah"><author>Hebrew Bible</author><title>Zechariah</title></bibl>
-                 <bibl xml:id="B.Malachi"><author>Hebrew Bible</author><title>Malachi</title></bibl>
+                 <bibl xml:id="B.Genesis"><author>Hebrew Bible</author><title>Genesis</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/>
+                 </bibl>
+                 <bibl xml:id="B.Exodos"><author>Hebrew Bible</author><title>Exodos</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Leviticus"><author>Hebrew Bible</author><title>Leviticus</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Numbers"><author>Hebrew Bible</author><title>Numbers</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Deuteronomy"><author>Hebrew Bible</author><title>Deuteronomy</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Joshua"><author>Hebrew Bible</author><title>Joshua</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Judges"><author>Hebrew Bible</author><title>Judges</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Ruth"><author>Hebrew Bible</author><title>Ruth</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.1Samuel"><author>Hebrew Bible</author><title>1 Samuel</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.2Samuel"><author>Hebrew Bible</author><title>2 Samuel</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.1Kings"><author>Hebrew Bible</author><title>1 Kings</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.2Kings"><author>Hebrew Bible</author><title>2 Kings</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.1Chronicles"><author>Hebrew Bible</author><title>1 Chronicles</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.2Chronicles"><author>Hebrew Bible</author><title>2 Chronicles</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Ezra"><author>Hebrew Bible</author><title>Ezra</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Nehemiah"><author>Hebrew Bible</author><title>Nehemiah</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Esther"><author>Hebrew Bible</author><title>Esther</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Job"><author>Hebrew Bible</author><title>Job</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Psalms"><author>Hebrew Bible</author><title>Psalms</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Proverbs"><author>Hebrew Bible</author><title>Proverbs</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Ecclesiastes"><author>Hebrew Bible</author><title>Ecclesiastes</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.SongofS"><author>Hebrew Bible</author><title>Song of Solomon</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Isaiah"><author>Hebrew Bible</author><title>Isaiah</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Jeremiah"><author>Hebrew Bible</author><title>Jeremiah</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Lamentations"><author>Hebrew Bible</author><title>Lamentations</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Ezekiel"><author>Hebrew Bible</author><title>Ezekiel</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Daniel"><author>Hebrew Bible</author><title>Daniel</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Hosea"><author>Hebrew Bible</author><title>Hosea</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Joel"><author>Hebrew Bible</author><title>Joel</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Amos"><author>Hebrew Bible</author><title>Amos</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Obadiah"><author>Hebrew Bible</author><title>Obadiah</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Jonah"><author>Hebrew Bible</author><title>Jonah</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Micah"><author>Hebrew Bible</author><title>Micah</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Nahum"><author>Hebrew Bible</author><title>Nahum</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Habakkuk"><author>Hebrew Bible</author><title>Habakkuk</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Zephaniah"><author>Hebrew Bible</author><title>Zephaniah</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Haggai"><author>Hebrew Bible</author><title>Haggai</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Zechariah"><author>Hebrew Bible</author><title>Zechariah</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="B.Malachi"><author>Hebrew Bible</author><title>Malachi</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
               </listBibl>
 <!--             These are the Osis/sbl short form in case we would like to translate them. 
                  osisRef attributes or osisID http://www.bibletechnologies.net/20Manual.dsp#body.1_div.4
@@ -174,33 +175,33 @@
               -->
               <listBibl type="BibleNT">
                  
-                 <bibl xml:id="NT.Matthew"><author>New Testament</author><title>Matthew</title></bibl>
-                 <bibl xml:id="NT.Mark"><author>New Testament</author><title>Mark</title></bibl>
-                 <bibl xml:id="NT.Luke"><author>New Testament</author><title>Luke</title></bibl>
-                 <bibl xml:id="NT.John"><author>New Testament</author><title>John</title></bibl>
-                 <bibl xml:id="NT.Acts"><author>New Testament</author><title>Acts</title></bibl>
-                 <bibl xml:id="NT.Romans"><author>New Testament</author><title>Romans</title></bibl>
-                 <bibl xml:id="NT.1Corinthians"><author>New Testament</author><title>1 Corinthians</title></bibl>
-                 <bibl xml:id="NT.2Corinthians"><author>New Testament</author><title>2 Corinthians</title></bibl>
-                 <bibl xml:id="NT.Galatians"><author>New Testament</author><title>Galatians</title></bibl>
-                 <bibl xml:id="NT.Ephesians"><author>New Testament</author><title>Ephesians</title></bibl>
-                 <bibl xml:id="NT.Philippians"><author>New Testament</author><title>Philoppians</title></bibl>
-                 <bibl xml:id="NT.Colossians"><author>New Testament</author><title>Collosians</title></bibl>
-                 <bibl xml:id="NT.1Thessalonians"><author>New Testament</author><title>1 Thessalonian</title></bibl>
-                 <bibl xml:id="NT.2Thessalonians"><author>New Testament</author><title>2 Thessalonians</title></bibl>
-                 <bibl xml:id="NT.1Timothy"><author>New Testament</author><title> 1 Timothy</title></bibl>
-                 <bibl xml:id="NT.2Timothy"><author>New Testament</author><title>2 Timothy</title></bibl>
-                 <bibl xml:id="NT.Titus"><author>New Testament</author><title>Titus</title></bibl>
-                 <bibl xml:id="NT.Philemon"><author>New Testament</author><title>Philemon</title></bibl>
-                 <bibl xml:id="NT.Hebrews"><author>New Testament</author><title>Hebrews</title></bibl>
-                 <bibl xml:id="NT.James"><author>New Testament</author><title>James</title></bibl>
-                 <bibl xml:id="NT.1Peter"><author>New Testament</author><title>1 Peter</title></bibl>
-                 <bibl xml:id="NT.2Peter"><author>New Testament</author><title>2 Peter</title></bibl>
-                 <bibl xml:id="NT.1John"><author>New Testament</author><title>1 John</title></bibl>
-                 <bibl xml:id="NT.2John"><author>New Testament</author><title>2 John</title></bibl>
-                 <bibl xml:id="NT.3John"><author>New Testament</author><title>3 John</title></bibl>
-                 <bibl xml:id="NT.Jude"><author>New Testament</author><title>Jude</title></bibl>
-                 <bibl xml:id="NT.Revelation"><author>New Testament</author><title>Revelation</title></bibl>
+                 <bibl xml:id="NT.Matthew"><author>New Testament</author><title>Matthew</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Mark"><author>New Testament</author><title>Mark</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Luke"><author>New Testament</author><title>Luke</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.John"><author>New Testament</author><title>John</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Acts"><author>New Testament</author><title>Acts</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Romans"><author>New Testament</author><title>Romans</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.1Corinthians"><author>New Testament</author><title>1 Corinthians</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.2Corinthians"><author>New Testament</author><title>2 Corinthians</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Galatians"><author>New Testament</author><title>Galatians</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Ephesians"><author>New Testament</author><title>Ephesians</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Philippians"><author>New Testament</author><title>Philoppians</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Colossians"><author>New Testament</author><title>Collosians</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.1Thessalonians"><author>New Testament</author><title>1 Thessalonian</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.2Thessalonians"><author>New Testament</author><title>2 Thessalonians</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.1Timothy"><author>New Testament</author><title> 1 Timothy</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.2Timothy"><author>New Testament</author><title>2 Timothy</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Titus"><author>New Testament</author><title>Titus</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Philemon"><author>New Testament</author><title>Philemon</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Hebrews"><author>New Testament</author><title>Hebrews</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.James"><author>New Testament</author><title>James</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.1Peter"><author>New Testament</author><title>1 Peter</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.2Peter"><author>New Testament</author><title>2 Peter</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.1John"><author>New Testament</author><title>1 John</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.2John"><author>New Testament</author><title>2 John</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.3John"><author>New Testament</author><title>3 John</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Jude"><author>New Testament</author><title>Jude</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
+                 <bibl xml:id="NT.Revelation"><author>New Testament</author><title>Revelation</title><ptr target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"/></bibl>
               </listBibl>
               <listBibl type="GermanLIT">
                  <bibl xml:id="G.Schiller_DasIdeal">
