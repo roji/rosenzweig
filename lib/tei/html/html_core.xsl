@@ -1257,10 +1257,8 @@ of this software, even if advised of the possibility of such damage.
         </blockquote>
       </xsl:when>
       <xsl:otherwise>
-  <!--
 	<span>
-  -->
-   <a>
+   <!-- <a>  -->
     <xsl:attribute name="href">#</xsl:attribute>
 	  <!-- START ADDITION BY SHAY -->
 	  <xsl:if test="@corresp">
@@ -1296,10 +1294,8 @@ of this software, even if advised of the possibility of such damage.
 	  <!-- END ADDITION BY SHAY -->
 	  <xsl:call-template name="makeRendition"/>
 	  <xsl:call-template name="makeQuote"/>
-     <!--
-        </span>
-     -->
-        </a>
+    </span>
+     <!-- </a> -->
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

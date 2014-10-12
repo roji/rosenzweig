@@ -2,6 +2,12 @@
   display: none;
 }
 
+/* Quote styling */
+.quote {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* Hide later books of DerStern for now */
 #ds2, #ds3 {
   display: none;

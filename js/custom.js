@@ -5,7 +5,7 @@ function ParseBibliography()
     bibliography = {};
     $('.tei_front .listBibl li').each(function(i)
     {
-        console.log('Loading ' + $(this).attr('id') + ': ' + $('.author', $(this)).text());
+        // console.log('Loading ' + $(this).attr('id') + ': ' + $('.author', $(this)).text());
         var quoteType = $(this).closest('.listBibl').data('type');
 
         var authorEl = $('.author', $(this));
@@ -159,7 +159,19 @@ function AttachSplitPane()
       .appendTo($('body'));
 }
 
-function hideTocElements()
+// Add a CSS class to the quote based on its bibliography type (e.g. GermanLit)
+function AddQuoteTypeCssClasses(topQuoteEl, quotes)
+{
+    $(quotes).each(function()
+    {
+        var source = $(this).data('source').replace(/^#/, '');
+        var primaryBibRecord = bibliography[source];
+        if (typeof primaryBibRecord != 'undefined')
+            $(topQuoteEl).addClass(primaryBibRecord.type);
+    });
+}
+
+function HideTocElements()
 {
     $('.toc a[href="#ds2"]').parent().hide();
     $('.toc a[href="#ds3"]').parent().hide();
@@ -167,25 +179,29 @@ function hideTocElements()
 
 $(document).ready(function()
 {
-    hideTocElements();
+    HideTocElements();
     ParseBibliography();
     
     // TODO: Pass over all quotes to make sure there are no unresolved quotes?
     
     $('.quote').each(function(i)
     {
+        // Skip nested quotes, they will be handled by their parents
+        if ($(this).parents('.quote').length > 0)
+           return;
+
+        var allQuotes = $('.quote', $(this))
+          .add(this)
+          .filter('[data-source]');
+
+        AddQuoteTypeCssClasses(this, allQuotes);
+
         if (typeof $(this).data('source') == 'undefined') {
             console.log('Quote has no source attribute');
             return;
         }
         var source = $(this).data('source').replace(/^#/, '');
         var primaryBibRecord = bibliography[source];
-        if (typeof primaryBibRecord == 'undefined') {
-            console.log("Quote has unknown primary bibliography source: " + $(this).data('source'));
-        } else {
-            // Add a CSS class to the quote based on its bibliography type (e.g. GermanLit)
-            $(this).addClass(primaryBibRecord.type);
-        }
         
         AttachTooltip(this, primaryBibRecord);
         if (typeof primaryBibRecord != 'undefined' && typeof primaryBibRecord.link != 'undefined')
