@@ -102,9 +102,14 @@ function AttachTooltip(quoteEl, primaryBibRecord)
 function AttachLink(quoteEl, bibRecord)
 {
   var url = bibRecord.link;
-  var anchor = $(quoteEl).data('n');
+
+  var anchor = $(quoteEl).data('base');
+
+  if (typeof anchor == 'undefined')
+    anchor = $(quoteEl).data('n');
   if (typeof anchor != 'undefined')
     url += anchor;
+
   console.log("Attaching link: " + url);
   $(quoteEl).click(function() {
     $('#external-text').attr('src', url);

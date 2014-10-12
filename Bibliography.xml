@@ -250,7 +250,8 @@
                        <title>De Carne</title></bibl>
                     <bibl xml:id="L.Tacitus_Germania">
                        <author>Tacitus</author>
-                       <title>Germania</title><ptr target="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:latinLit:phi1351.phi002.perseus-lat1:46.5"></ptr>/></bibl>
+                       <title>Germania</title><ptr target="http://www.perseus.tufts.edu/hopper/text?doc="></ptr>/>
+                    </bibl>
                  </listBibl>
                  <listBibl type="GreekLit">
                     <bibl/>
