@@ -2,17 +2,23 @@
   display: none;
 }
 
+/* Quote styling */
+.quote {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* Hide later books of DerStern for now */
 #ds2, #ds3 {
   display: none;
 }
 
 /* Tooltip styling */
-.quote_tooltip .text {
+.quotes_tooltip .text {
   font-style: italic;
 }
 
-.quote_tooltip .title {
+.quotes_tooltip .title {
   font-weight: bold;
 }
 

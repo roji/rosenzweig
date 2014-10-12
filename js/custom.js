@@ -5,7 +5,7 @@ function ParseBibliography()
     bibliography = {};
     $('.tei_front .listBibl li').each(function(i)
     {
-        console.log('Loading ' + $(this).attr('id') + ': ' + $('.author', $(this)).text());
+        // console.log('Loading ' + $(this).attr('id') + ': ' + $('.author', $(this)).text());
         var quoteType = $(this).closest('.listBibl').data('type');
 
         var authorEl = $('.author', $(this));
@@ -25,78 +25,86 @@ function ParseBibliography()
     });
 }
 
-function AttachTooltip(quoteEl, primaryBibRecord)
+function AttachTooltip(topQuoteEl, quotes)
 {
-    if (typeof primaryBibRecord == 'undefined') {
-        $(quoteEl).tooltipster({
-            content: $('<span>Source not found in bibliography list: ' + $(quoteEl).data('source') + '</span>')
-        });
-        return;
-    }
-    
-    var wrapper = $('<div/>', { 'class': 'quote_tooltip' });
-    wrapper.append($('<p/>', {
-            'class': 'text',
-            text: $(quoteEl).text()
-    }));
-    
-    // PRIMARY BIBLIOGRAPHY
-
-    var primaryBibEl = $('<p/>', { 'class' : 'primary_bib' });
-    wrapper.append(primaryBibEl);
-
-    if ('author' in primaryBibRecord)
-        primaryBibEl.append($('<span/>', {
-            'class': 'author',
-            text: primaryBibRecord.author
-        }));
-
-    if ('author' in primaryBibRecord && 'title' in primaryBibRecord)
-        primaryBibEl.append(', ')
-        
-    if ('title' in primaryBibRecord)
-        primaryBibEl.append($('<span/>', {
-            'class': 'title',
-            text: primaryBibRecord.title
-        }));
-
-    var pageno = $(quoteEl).data('n')
-    if (typeof pageno != 'undefined')
-        primaryBibEl
-            .append(', ')
-            .append($('<span/>', {
-                'class': 'pageno',
-                text: pageno
-            }));
-
-    // SECONDARY BIBLIOGRAPHY
-
-    var ana = $(quoteEl).data('ana').replace(/^#/, '');
-    var secondaryBibRecord = bibliography[ana];
-    if (typeof secondaryBibRecord != 'undefined')
+    var quotesFound = 0;
+    var tooltip = $('<div/>', { 'class': 'quotes_tooltip' });
+    $(quotes).each(function()
     {
-        var secondaryBibEl = $('<p/>', { 'class' : 'secondary_bib' });
-        wrapper.append(secondaryBibEl);
+        var source = $(this).data('source').replace(/^#/, '');
+        var primaryBibRecord = bibliography[source];
+        if (typeof primaryBibRecord == 'undefined')
+            return;
+        quotesFound++;
 
-        secondaryBibEl.append($('<span/>', { text: "Noted in: " }));
+        var quoteWrapper = $('<div/>', { 'class': 'quote_wrapper' });
+        tooltip.append(quoteWrapper);
 
-        if ('author' in secondaryBibRecord)
-            secondaryBibEl.append($('<span/>', {
+        quoteWrapper.append($('<p/>', {
+           'class': 'text',
+           text: $(this).text()
+        }));
+
+        // PRIMARY BIBLIOGRAPHY
+
+        var primaryBibEl = $('<p/>', { 'class' : 'primary_bib' });
+        quoteWrapper.append(primaryBibEl);
+
+        if ('author' in primaryBibRecord)
+            primaryBibEl.append($('<span/>', {
                 'class': 'author',
-                text: secondaryBibRecord.author
+                text: primaryBibRecord.author
             }));
 
-        if ('author' in secondaryBibRecord && 'title' in secondaryBibRecord)
-            secondaryBibEl.append(', ')
-
-        if ('title' in secondaryBibRecord)
-            secondaryBibEl.append($('<span/>', {
+        if ('author' in primaryBibRecord && 'title' in primaryBibRecord)
+            primaryBibEl.append(', ')
+        
+        if ('title' in primaryBibRecord)
+            primaryBibEl.append($('<span/>', {
                 'class': 'title',
-                text: secondaryBibRecord.title
+                text: primaryBibRecord.title
             }));
-    }
 
-    $(quoteEl).tooltipster({ content: wrapper });
+        var pageno = $(this).data('n')
+        if (typeof pageno != 'undefined')
+            primaryBibEl
+                .append(', ')
+                .append($('<span/>', {
+                    'class': 'pageno',
+                    text: pageno
+                }));
+
+        // SECONDARY BIBLIOGRAPHY
+
+        var ana = $(this).data('ana').replace(/^#/, '');
+        var secondaryBibRecord = bibliography[ana];
+        if (typeof secondaryBibRecord != 'undefined')
+        {
+            var secondaryBibEl = $('<p/>', { 'class' : 'secondary_bib' });
+            quoteWrapper.append(secondaryBibEl);
+
+            secondaryBibEl.append($('<span/>', { text: "Noted in: " }));
+
+            if ('author' in secondaryBibRecord)
+                secondaryBibEl.append($('<span/>', {
+                    'class': 'author',
+                    text: secondaryBibRecord.author
+                }));
+
+            if ('author' in secondaryBibRecord && 'title' in secondaryBibRecord)
+                secondaryBibEl.append(', ')
+
+            if ('title' in secondaryBibRecord)
+                secondaryBibEl.append($('<span/>', {
+                    'class': 'title',
+                    text: secondaryBibRecord.title
+                }));
+        }
+    });
+
+    $(".quote_wrapper:not(:last-of-type)", $(tooltip)).after("<hr/>");
+
+    $(topQuoteEl).tooltipster({ content: quotesFound > 0 ? tooltip : $('<span>No bibliography found here</span>') });
 }
 
 function AttachLink(quoteEl, bibRecord)
@@ -159,7 +167,19 @@ function AttachSplitPane()
       .appendTo($('body'));
 }
 
-function hideTocElements()
+// Add a CSS class to the quote based on its bibliography type (e.g. GermanLit)
+function AddQuoteTypeCssClasses(topQuoteEl, quotes)
+{
+    $(quotes).each(function()
+    {
+        var source = $(this).data('source').replace(/^#/, '');
+        var primaryBibRecord = bibliography[source];
+        if (typeof primaryBibRecord != 'undefined')
+            $(topQuoteEl).addClass(primaryBibRecord.type);
+    });
+}
+
+function HideTocElements()
 {
     $('.toc a[href="#ds2"]').parent().hide();
     $('.toc a[href="#ds3"]').parent().hide();
@@ -167,27 +187,31 @@ function hideTocElements()
 
 $(document).ready(function()
 {
-    hideTocElements();
+    HideTocElements();
     ParseBibliography();
     
     // TODO: Pass over all quotes to make sure there are no unresolved quotes?
     
     $('.quote').each(function(i)
     {
+        // Skip nested quotes, they will be handled by their parents
+        if ($(this).parents('.quote').length > 0)
+           return;
+
+        var allQuotes = $('.quote', $(this))
+          .add(this)
+          .filter('[data-source]');
+
+        AddQuoteTypeCssClasses(this, allQuotes);
+        AttachTooltip(this, allQuotes);
+
         if (typeof $(this).data('source') == 'undefined') {
             console.log('Quote has no source attribute');
             return;
         }
         var source = $(this).data('source').replace(/^#/, '');
         var primaryBibRecord = bibliography[source];
-        if (typeof primaryBibRecord == 'undefined') {
-            console.log("Quote has unknown primary bibliography source: " + $(this).data('source'));
-        } else {
-            // Add a CSS class to the quote based on its bibliography type (e.g. GermanLit)
-            $(this).addClass(primaryBibRecord.type);
-        }
         
-        AttachTooltip(this, primaryBibRecord);
         if (typeof primaryBibRecord != 'undefined' && typeof primaryBibRecord.link != 'undefined')
           AttachLink(this, primaryBibRecord);
     });
