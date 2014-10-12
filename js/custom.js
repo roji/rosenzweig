@@ -158,9 +158,6 @@ function hideTocElements()
 {
     $('.toc a[href="#ds2"]').parent().hide();
     $('.toc a[href="#ds3"]').parent().hide();
-    $('.toc a[href="#ds1.5"]').parent().hide();
-    $('.toc a[href="#ds1.6"]').parent().hide();
-    $('.toc a[href="#ds1.7"]').parent().hide();
 }
 
 $(document).ready(function()

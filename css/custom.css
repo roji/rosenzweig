@@ -7,10 +7,6 @@
   display: none;
 }
 
-#ds1\.5, #ds1\.6, #ds1\.7 {
-  display: none;
-}
-
 /* Tooltip styling */
 .quote_tooltip .text {
   font-style: italic;
