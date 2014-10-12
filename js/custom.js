@@ -64,11 +64,11 @@ function AttachTooltip(quoteEl, bibRecord)
 
 function AttachLink(quoteEl, bibRecord)
 {
-  console.log("Attaching link");
   var url = bibRecord.link;
   var anchor = $(quoteEl).data('n');
   if (typeof anchor != 'undefined')
-    url += "#" + anchor;
+    url += anchor;
+  console.log("Attaching link: " + url);
   $(quoteEl).click(function() {
     $('#external-text').attr('src', url);
   });
