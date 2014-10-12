@@ -745,7 +745,7 @@ of this software, even if advised of the possibility of such damage.
           <xsl:for-each select="tei:biblStruct">
             <xsl:sort select="lower-case((tei:*/tei:author/tei:surname|tei:*[1]/tei:author/tei:orgName|tei:*[1]/tei:author/tei:name|tei:*[1]/tei:author|tei:*[1]/tei:editor/tei:surname|tei:*[1]/tei:editor/tei:name|tei:*[1]/tei:editor|tei:*[1]/tei:title[1])[1])"/>
             <xsl:sort select="tei:monogr/tei:imprint/tei:date"/>
-            <li>
+            <li class="biblstruct">
               <xsl:call-template name="makeAnchor"/>
               <xsl:apply-templates select="."/>
             </li>
