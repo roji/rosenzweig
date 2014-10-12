@@ -14,11 +14,11 @@
 }
 
 /* Tooltip styling */
-.quote_tooltip .text {
+.quotes_tooltip .text {
   font-style: italic;
 }
 
-.quote_tooltip .title {
+.quotes_tooltip .title {
   font-weight: bold;
 }
 
