@@ -376,7 +376,7 @@
                   <!--           <ListBibl>Secondary<head> Secondary Sources (which point to the re-uses) </head>
 -->
                </listBibl>
-            </listBibl>
+
             <listBibl type="Secondary">
                <head> Secondary Bibliography: "ana" </head>
                <biblStruct xml:id="S.Sax1">
@@ -423,6 +423,22 @@
                      </imprint>
                   </monogr>
                </biblStruct>
+                  <biblStruct xml:id="S.Galli">
+                        <analytic>
+                              <author>Barbara E. Galli
+                              </author>
+                              <title></title>
+                        </analytic>
+                        <monogr>
+                              <author><persName>Franz Rosenzweig</persName></author>
+                              <title>The Star of Redemption</title>
+                              <imprint>
+                                    <pubPlace>Madison, Wisconsin</pubPlace>
+                                    <publisher>University of Wisconsin Press</publisher>
+                                    <date>2005</date>
+                              </imprint>
+                        </monogr>
+                  </biblStruct>
                <biblStruct xml:id="S.Amir">
                   <analytic>
                      <editor>Yehoshua Amir (translator's footnotes)</editor>
