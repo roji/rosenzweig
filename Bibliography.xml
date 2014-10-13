@@ -289,6 +289,12 @@
                         Testament</author><title>Revelation</title><ptr
                         target="Sources/Luther_Bibel/Luther-Bibel_1912.s71p.0.html#"></ptr></bibl>
                </listBibl>
+                  <listBibl type="Talmud_Bavli">
+                        <bibl xml:id="Chagiga"><author>Moed tract</author><title>Chagiga</title><ptr target="http://www.sefaria.org/"/>
+                              
+                        </bibl>
+                  </listBibl>
+                  <listBibl type="Midrash"><bibl  xml:id="M.BereshitRaba"><author>Midrash</author><title>Bereshit Raba</title><ptr target="http://www.sefaria.org/"/></bibl></listBibl>
                <listBibl type="GermanLIT">
                   <bibl xml:id="G.Schiller_DasIdeal">
                      <author>Schiller</author>
