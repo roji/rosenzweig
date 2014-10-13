@@ -325,7 +325,7 @@
                      </bibl>
                      <bibl xml:id="G.Goethe_Göttliche">
                         <author>Goethe</author>
-                        <title>Das Göttliche</title>
+                           <title>Das Göttliche</title><ptr target="Sources/Goethe_Göttliche/data.html"/>
                      </bibl>
                      <bibl xml:id="G.Novalis_Lied_der_Toten">
                         <author>Novalis</author>
