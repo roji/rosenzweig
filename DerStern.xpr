@@ -40,6 +40,21 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>Sources/Schiller_DieWorte/data-3.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Source</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>Sources/Schiller_DasIdeal/data-2.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -56,21 +71,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>Sources/Schiller_Wallenstein/Wallenstein.twxm.0.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Source</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Sources/Schiller_DieWorte/data-3.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

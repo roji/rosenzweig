@@ -361,7 +361,10 @@
                      <bibl xml:id="E.Shakespeare_RichardIII">
                         <author>Shakespeare</author>
                         <title>Richard III</title></bibl>
-                  </listBibl>
+                  </listBibl><listBibl type="Own"><bibl xml:id="O.Gritli"><author>Rosenzweig</author><author> Rosenstock-Huessy</author><title>Gritli Briefe</title>
+                        <ptr target="Sources/Gritli_Letters/Gritli_18.8.18.html"/>
+                  </bibl></listBibl>
+              
 
                   <!--           <ListBibl>Secondary<head> Secondary Sources (which point to the re-uses) </head>
 -->
