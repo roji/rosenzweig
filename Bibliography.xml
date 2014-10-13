@@ -299,7 +299,7 @@
                   <bibl xml:id="G.Schiller_DasIdeal">
                      <author>Schiller</author>
                      <title>Das Ideal und das Leben</title>
-                     <ptr target="Sources/Schiller_DasIdeal/data-2.html"></ptr>
+                     <ptr target="Sources/Schiller_DasIdeal/data-2.html/"></ptr>
                   </bibl>
                   <bibl xml:id="G.Schiller_DieWorte">
                      <author>Schiller</author>
@@ -368,7 +368,7 @@
                         <author>Shakespeare</author>
                         <title>Richard III</title></bibl>
                   </listBibl><listBibl type="Own"><bibl xml:id="O.Gritli"><author>Rosenzweig</author><author> Rosenstock-Huessy</author><title>Gritli Briefe</title>
-                        <ptr target="Sources/Gritli_Letters/Gritli_18.8.18.html"/>
+                        <ptr target="Sources/Gritli_Letters/Gritli_18.8.18.html#"/>
                   </bibl></listBibl>
               
 
