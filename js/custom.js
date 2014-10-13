@@ -15,7 +15,7 @@ function ParseBibliography()
         var bib = {
            type:   quoteType,
            author: $(authorEl).text(),
-           title:  $('.titlem', $(this)).text(),
+           title:  $('.titlem', $(this)).first().text(),
         };
         var link = $('.link_ptr', $(this));
         if (link) {
