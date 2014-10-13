@@ -427,7 +427,7 @@
                         <analytic>
                               <author>Barbara E. Galli
                               </author>
-                              <title></title>
+                              <title>translator's footnotes</title>
                         </analytic>
                         <monogr>
                               <author><persName>Franz Rosenzweig</persName></author>
@@ -441,7 +441,8 @@
                   </biblStruct>
                <biblStruct xml:id="S.Amir">
                   <analytic>
-                     <editor>Yehoshua Amir (translator's footnotes)</editor>
+                        <author>Yehoshua Amir</author>
+                     <title>translator's footnotes</title>
                   </analytic>
                   <monogr>
                      <title>Kochav ha-Geulah</title>
