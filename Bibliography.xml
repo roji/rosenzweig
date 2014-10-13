@@ -366,7 +366,7 @@
                   <listBibl type="ENGlishLit">
                      <bibl xml:id="E.Shakespeare_RichardIII">
                         <author>Shakespeare</author>
-                        <title>Richard III</title></bibl>
+                           <title>Richard III</title><ptr target="Sources/Shakespeare_RichardIII/Koenig_Richard_III..vnfg.0.html"/></bibl>
                   </listBibl><listBibl type="Own"><bibl xml:id="O.Gritli"><author>Rosenzweig</author><author> Rosenstock-Huessy</author><title>Gritli Briefe</title>
                         <ptr target="Sources/Gritli_Letters/Gritli_18.8.18.html#"/>
                   </bibl></listBibl>
@@ -406,8 +406,8 @@
                </biblStruct>
                <biblStruct xml:id="S.Mayer1">
                   <analytic>
-                     <author><persName>Annemarie</persName>
-                        <surname>Mayer</surname></author>
+                     <author><persName>Annemarie Mayer</persName>
+                      </author>
                      <title>Hinweise und Verzeichnisse</title>
                   </analytic>
                   <monogr>
@@ -437,7 +437,7 @@
                </biblStruct>
                <biblStruct xml:id="S.Glatzer1">
                   <analytic>
-                     <author><persName>Glatzer, Nahum</persName></author>
+                     <author><persName>Nahum Glatzer</persName></author>
                      <title>Nachweis der Jüdischen Quellen</title>
                   </analytic>
                   <monogr>
