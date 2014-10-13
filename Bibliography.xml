@@ -324,6 +324,7 @@
                      <author>Goethe</author>
                      <title>Faust</title>
                      <ptr target="Sources/Goethe_Faust/Faust._Eine_Tragoedie.11d4b.0.html"/>
+                  </bibl>
                      <bibl xml:id="G.Goethe_Grenzen">
                         <author>Goethe</author>
                         <title>Grenzen der Menschheit</title><ptr target="Sources/Goethe_Grenzen/data.html"
@@ -342,7 +343,7 @@
                         <title>Philosophische Untersuchungen über das Wesen der menschlichen
                            Freiheit und die damit zusammenhängenden Gegenstände</title>
                      </bibl>
-                  </bibl>
+                  </listBibl>
                   <listBibl type="RomanLit">
                      <bibl xml:id="L.tertulian_deCarne">
                         <author>Tertulianus</author>
