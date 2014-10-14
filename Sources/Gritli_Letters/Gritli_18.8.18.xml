@@ -6,13 +6,19 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gritli Sample Letter</title>
+            <title>Gritli Briefe, Argo Books</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>The Eugen Rosenstock-Huessy Fund commissioned the preparation of Franz Rosenzweig's correspondence with Margrit Rosenstock-Huessy. This is the only source of the complete surviving correspondence in unabridged form, drawn directly from the original manuscripts. There are more than 1200 letters.
+               
+               Franz Rosenzweig (1886-1929) wrote these letters between 1917 and 1929 to Margrit Rosenstock-Huessy (1893 -1959) and his friend Eugen Rosenstock-Huessy (1888-1973.) The Eugen Rosenstock-Huessy Fund believes that these letters offer an important insight into the complex relationships between these three people, and that at a time that was centrally important for their lives and work.
+               
+               The correspondence was transcribed by Ulrike von Moltke between 1985 and 1990. Michael Gormann-Thelen und Dr. Elfriede Büchsel have proof-read, corrected and added to these transcriptions. 
+               
+            </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Argo Book, available online  http://argobooks.org/gritli/index.html</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>

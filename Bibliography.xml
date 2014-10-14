@@ -368,7 +368,7 @@
                      <bibl xml:id="E.Shakespeare_RichardIII">
                         <author>Shakespeare</author>
                            <title>Richard III</title><ptr target="Sources/Shakespeare_RichardIII/Koenig_Richard_III..vnfg.0.html"/></bibl>
-                  </listBibl><listBibl type="Own"><bibl xml:id="O.Gritli"><author>Rosenzweig</author><author> Rosenstock-Huessy</author><title>Gritli Briefe</title>
+                  </listBibl><listBibl type="Own"><bibl xml:id="O.Gritli"><author>Rosenzweig/ Rosenstock-Huessy</author><title>Gritli Briefe</title>
                         <ptr target="Sources/Gritli_Letters/Gritli_18.8.18.html#"/>
                   </bibl></listBibl>
               
@@ -395,16 +395,6 @@
                   </monogr>
                </biblStruct>
 
-               <biblStruct>
-                  <monogr>
-                     <title>Kochav ha-Geulah, translated by Yehoshua Amir</title>
-                     <imprint>
-                        <publisher>Mosad Bialik</publisher>
-                        <pubPlace>Jerusalem</pubPlace>
-                        <date>1990</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
                <biblStruct xml:id="S.Mayer1">
                   <analytic>
                      <author><persName>Annemarie Mayer</persName>
@@ -427,7 +417,7 @@
                         <analytic>
                               <author>Barbara E. Galli
                               </author>
-                              <title>translator's footnotes</title>
+                              <title>The Star of Redemption (translator's footnotes)</title>
                         </analytic>
                         <monogr>
                               <author><persName>Franz Rosenzweig</persName></author>
@@ -442,7 +432,7 @@
                <biblStruct xml:id="S.Amir">
                   <analytic>
                         <author>Yehoshua Amir</author>
-                     <title>translator's footnotes</title>
+                        <title>Kochav ha-Geulah (translator's footnotes)</title>
                   </analytic>
                   <monogr>
                      <title>Kochav ha-Geulah</title>
