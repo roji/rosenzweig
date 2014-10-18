@@ -343,7 +343,11 @@
                         <title>Philosophische Untersuchungen über das Wesen der menschlichen
                            Freiheit und die damit zusammenhängenden Gegenstände</title>
                      </bibl>
-                  </listBibl>
+                     <bibl xml:id="G.Deussen"><author>Paul Deussen</author><title>Die Philosophie der Upanischad's, Leipzig 1899</title></bibl>
+                     <bibl xml:id="G.Schopenhauer"><author>Arthur Schopenhauer, Eduard Grisebach (ed.), </author><title>Schopenhauer's Gespräche und Selbstgespräche: Nach der Handschrift Eis Heauton, 1898</title></bibl>
+                     <bibl xml:id="G.Stirner"><author>Max Stirner</author><title>Max Stirner's kleinere Schriften und seine Entgegnungen auf die Kritik seines Werkes</title></bibl>
+             
+                     <bibl xml:id="Kant1"><author>Immanuel Kant</author><title>Gesammelte Schriften. Abtheilung IV: Vorlesungen, De Gruyter, 1972</title></bibl></listBibl>
                   <listBibl type="RomanLit">
                      <bibl xml:id="L.tertulian_deCarne">
                         <author>Tertulianus</author>
@@ -394,7 +398,8 @@
                      </imprint>
                   </monogr>
                </biblStruct>
-
+                  
+                  
                <biblStruct xml:id="S.Mayer1">
                   <analytic>
                      <author><persName>Annemarie Mayer</persName>
