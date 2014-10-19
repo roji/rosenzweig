@@ -14,7 +14,8 @@
     <!-- TEI XSL surrounds quotes with ' by default -->
     <xsl:param name="preQuote" />
     <xsl:param name="postQuote" />
-    
+    <xsl:param name="pagebreakStyle">none</xsl:param>
+
     <!-- Inject some of our own CSS and Javascript directives into the <head> -->
     <xsl:template name="javascriptHook">
         <script type="text/javascript" src="lib/jquery/jquery-2.1.1.min.js">XSL</script>

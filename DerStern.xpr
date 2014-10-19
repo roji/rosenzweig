@@ -392,7 +392,6 @@
         </folder>
         <folder path="Sources/"/>
         <file name="Bibliography.xml"/>
-        <file name="Sources/Goethe_G%C3%B6ttliche/data.xml"/>
         <file name="DerStern.xml"/>
         <file name="DerStern.xsl"/>
         <file name="Source.xsl"/>
