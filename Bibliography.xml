@@ -294,7 +294,7 @@
                               
                         </bibl>
                   </listBibl>
-                  <listBibl type="Midrash"><bibl  xml:id="M.BereshitRaba"><author>Midrash</author><title>Bereshit Raba</title><ptr target="http://www.sefaria.org/"/></bibl></listBibl>
+                  <listBibl type="Midrash"><bibl  xml:id="M.BereshitRaba"><author>Midrash</author><title>Bereshit Raba</title><ptr target="http://www.sefaria.org/#"/></bibl></listBibl>
                <listBibl type="GermanLIT">
                   <bibl xml:id="G.Schiller_DasIdeal">
                      <author>Schiller</author>
@@ -309,7 +309,7 @@
                   <bibl xml:id="G.Schiller_Wallenstein">
                      <author>Schiller</author>
                      <title>Wallensteins Tod</title>
-                     <ptr target="Sources/Schiller_Wallenstein/Wallenstein.twxm.0.html"></ptr>
+                     <ptr target="Sources/Schiller_Wallenstein/Wallenstein.twxm.0.html#"></ptr>
                   </bibl>
                   <bibl xml:id="G.Cohen_Logik">
                      <author><persName>Hermann Cohen</persName></author>
@@ -318,21 +318,21 @@
                   <bibl xml:id="G.Goethe_Tasso">
                      <author>Schiller</author>
                      <title>Die Worte des Glaubens</title><ptr
-                        target="Sources/Schiller_DieWorte/data-3.html"></ptr>
+                        target="Sources/Schiller_DieWorte/data-3.html#"></ptr>
                   </bibl>
                   <bibl xml:id="G.Goethe_Faust">
                      <author>Goethe</author>
                      <title>Faust</title>
-                     <ptr target="Sources/Goethe_Faust/Faust._Eine_Tragoedie.11d4b.0.html"/>
+                     <ptr target="Sources/Goethe_Faust/Faust._Eine_Tragoedie.11d4b.0.html#"/>
                   </bibl>
                      <bibl xml:id="G.Goethe_Grenzen">
                         <author>Goethe</author>
-                        <title>Grenzen der Menschheit</title><ptr target="Sources/Goethe_Grenzen/data.html"
+                        <title>Grenzen der Menschheit</title><ptr target="Sources/Goethe_Grenzen/data.html#"
                            ></ptr>
                      </bibl>
                      <bibl xml:id="G.Goethe_Göttliche">
                         <author>Goethe</author>
-                           <title>Das Göttliche</title><ptr target="Sources/Goethe_Göttliche/data.html"/>
+                           <title>Das Göttliche</title><ptr target="Sources/Goethe_Göttliche/data.html#"/>
                      </bibl>
                      <bibl xml:id="G.Novalis_Lied_der_Toten">
                         <author>Novalis</author>
@@ -371,9 +371,9 @@
                   <listBibl type="ENGlishLit">
                      <bibl xml:id="E.Shakespeare_RichardIII">
                         <author>Shakespeare</author>
-                           <title>Richard III</title><ptr target="Sources/Shakespeare_RichardIII/Koenig_Richard_III..vnfg.0.html"/></bibl>
+                           <title>Richard III</title><ptr target="Sources/Shakespeare_RichardIII/Koenig_Richard_III..vnfg.0.html#"/></bibl>
                   </listBibl><listBibl type="Own"><bibl xml:id="O.Gritli"><author>Rosenzweig/ Rosenstock-Huessy</author><title>Gritli Briefe</title>
-                        <ptr target="Sources/Gritli_Letters/Gritli_18.8.18.html/"/>
+                        <ptr target="Sources/Gritli_Letters/Gritli_18.8.18.html#/"/>
                   </bibl></listBibl>
               
 
