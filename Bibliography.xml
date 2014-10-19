@@ -358,7 +358,7 @@
                            target="http://www.perseus.tufts.edu/hopper/text?doc=#"></ptr>/> </bibl>
                   </listBibl>
                   <listBibl type="GreekLit">
-                     <bibl></bibl>
+                     <bibl xml:id="Gr.Thales"></bibl>
                   </listBibl>
                   <listBibl type="ItalianLit"><bibl xml:id="I.Dante_Goettliche"><author>Dante Allighieri</author><title>La Comedia Divina</title><ptr target="Sources/Dante_Goettliche/Die_Goettliche_Komoedie.html#"/></bibl></listBibl>
                   <listBibl type="FrenchLit">
