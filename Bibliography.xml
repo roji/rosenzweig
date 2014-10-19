@@ -318,7 +318,7 @@
                   <bibl xml:id="G.Goethe_Tasso">
                      <author>Schiller</author>
                      <title>Die Worte des Glaubens</title><ptr
-                        target="Sources/Schiller_DieWorte/data-3.html#"></ptr>
+                           target="Sources/Goethe_Tasso/Torquato_Tasso.11d2k.0.html#"></ptr>
                   </bibl>
                   <bibl xml:id="G.Goethe_Faust">
                      <author>Goethe</author>
@@ -344,9 +344,9 @@
                            Freiheit und die damit zusammenhängenden Gegenstände</title>
                      </bibl>
                      <bibl xml:id="G.Deussen"><author>Paul Deussen</author><title>Die Philosophie der Upanischad's, Leipzig 1899</title></bibl>
-                     <bibl xml:id="G.Schopenhauer"><author>Arthur Schopenhauer, Eduard Grisebach (ed.), </author><title>Schopenhauer's Gespräche und Selbstgespräche: Nach der Handschrift Eis Heauton, 1898</title></bibl>
-                     <bibl xml:id="G.Stirner"><author>Max Stirner</author><title>Max Stirner's kleinere Schriften und seine Entgegnungen auf die Kritik seines Werkes</title></bibl>
-             
+                     <bibl xml:id="G.Schopenhauer"><author>Arthur Schopenhauer, Eduard Grisebach (ed.), </author><title>Schopenhauer's Gespräche und Selbstgespräche: Nach der Handschrift Eis Heauton, 1898</title><ptr target="https://archive.org/details/schopenhauersge00grisgoog"/></bibl>
+                     <bibl xml:id="G.Stirner"><author>Max Stirner</author><title>Max Stirner's kleinere Schriften und seine Entgegnungen auf die Kritik seines Werkes</title><ptr target="https://archive.org/stream/maxstirnersklein00schm#"/></bibl>
+                     <bibl xml:id="G.Lessmann"><author>Otto Lessmann</author><title>Allgemeine Deutsche Musik-Zeitung 24.3.1882</title></bibl>
                      <bibl xml:id="Kant1"><author>Immanuel Kant</author><title>Gesammelte Schriften. Abtheilung IV: Vorlesungen, De Gruyter, 1972</title></bibl></listBibl>
                   <listBibl type="RomanLit">
                      <bibl xml:id="L.tertulian_deCarne">
@@ -355,11 +355,12 @@
                      <bibl xml:id="L.Tacitus_Germania">
                         <author>Tacitus</author>
                         <title>Germania</title><ptr
-                           target="http://www.perseus.tufts.edu/hopper/text?doc="></ptr>/> </bibl>
+                           target="http://www.perseus.tufts.edu/hopper/text?doc=#"></ptr>/> </bibl>
                   </listBibl>
                   <listBibl type="GreekLit">
                      <bibl></bibl>
                   </listBibl>
+                  <listBibl type="ItalianLit"><bibl xml:id="I.Dante_Goettliche"><author>Dante Allighieri</author><title>La Comedia Divina</title><ptr target="Sources/Dante_Goettliche/Die_Goettliche_Komoedie.html#"/></bibl></listBibl>
                   <listBibl type="FrenchLit">
                      <bibl xml:id="Rousseau_contrat"><author><persName>Jean-Jacques
                               Rousseau</persName></author><title>Du Contrat Social ou Principes du
