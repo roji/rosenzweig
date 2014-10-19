@@ -26,6 +26,9 @@
         <link rel="stylesheet" type="text/css" href="lib/split-pane/split-pane.css" />
         <link rel="stylesheet" type="text/css" href="lib/split-pane/pretty-split-pane.css" />
         <script type="text/javascript" src="lib/split-pane/split-pane.js">XSL</script>
+
+        <link rel="stylesheet" type="text/css" href="lib/jquery.contextmenu/jquery.contextmenu.css" />
+        <script type="text/javascript" src="lib/jquery.contextmenu/jquery.contextmenu.js">XSL</script>
         
         <script type="text/javascript" src="js/custom.js">XSL</script>
         <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />        

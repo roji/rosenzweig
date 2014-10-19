@@ -107,23 +107,6 @@ function AttachTooltip(topQuoteEl, quotes)
     $(topQuoteEl).tooltipster({ content: quotesFound > 0 ? tooltip : $('<span>No bibliography found here</span>') });
 }
 
-function AttachLink(quoteEl, bibRecord)
-{
-  var url = bibRecord.link;
-
-  var anchor = $(quoteEl).data('base');
-
-  if (typeof anchor == 'undefined')
-    anchor = $(quoteEl).data('n');
-  if (typeof anchor != 'undefined')
-    url += anchor;
-
-  console.log("Attaching link: " + url);
-  $(quoteEl).click(function() {
-    $('#external-text').attr('src', url);
-  });
-}
-
 function AttachSplitPane()
 {
     var splitPane = $('<div/>', {
@@ -185,6 +168,65 @@ function HideTocElements()
     $('.toc a[href="#ds3"]').parent().hide();
 }
 
+function GenerateClickFunction(quoteEl, bibRecord)
+{
+  var url = bibRecord.link;
+  var anchor = $(quoteEl).data('base');
+
+  if (typeof anchor == 'undefined')
+    anchor = $(quoteEl).data('n');
+  if (typeof anchor != 'undefined')
+    url += anchor;
+
+  return function() { $('#external-text').attr('src', url); };
+}
+
+function AttachClick(topQuoteEl, quotes)
+{
+  if (quotes.length == 1)
+  {
+    var source = $(topQuoteEl).data('source').replace(/^#/, '');
+    var bibRecord = bibliography[source];
+    if (typeof bibRecord == 'undefined' || typeof bibRecord.link == 'undefined')
+      return null;
+    $(topQuoteEl).click(GenerateClickFunction(topQuoteEl, bibRecord));
+    return;
+  }
+
+  // Multiple quotes, attach a context menu
+  var menu = [];
+  $(quotes).each(function()
+  {
+    var source = $(this).data('source').replace(/^#/, '');
+    var bibRecord = bibliography[source];
+    if (typeof bibRecord == 'undefined' || typeof bibRecord.link == 'undefined')
+      return null;
+
+    var text = "";
+    if ('author' in bibRecord)
+      text += bibRecord.author;
+
+    if ('author' in bibRecord && 'title' in bibRecord)
+      text += ", ";
+        
+    if ('title' in bibRecord)
+      text += bibRecord.title;
+
+    var pageno = $(this).data('n')
+    if (typeof pageno != 'undefined')
+      text += ", " + pageno;
+   
+    var menuItem = {};
+    menuItem[text] = GenerateClickFunction(this, bibRecord);
+    menu.push(menuItem);
+  });
+
+  $(topQuoteEl).contextMenu(menu, {
+    beforeShow: function() { $(topQuoteEl).tooltipster('hide'); }
+  });
+}
+
+
 $(document).ready(function()
 {
     HideTocElements();
@@ -209,12 +251,9 @@ $(document).ready(function()
             console.log('Quote has no source attribute');
             return;
         }
-        var source = $(this).data('source').replace(/^#/, '');
-        var primaryBibRecord = bibliography[source];
-        
-        if (typeof primaryBibRecord != 'undefined' && typeof primaryBibRecord.link != 'undefined')
-          AttachLink(this, primaryBibRecord);
-    });
+
+        AttachClick(this, allQuotes);
+   });
     
     AttachSplitPane();
 });
