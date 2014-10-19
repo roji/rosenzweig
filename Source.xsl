@@ -6,6 +6,8 @@
 
     <xsl:import href="lib/tei/html5/html5.xsl"/>
 
+    <xsl:param name="institution" />
+
     <xsl:template name="javascriptHook">
         <meta charset="utf-8" />
     </xsl:template>
