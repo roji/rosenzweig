@@ -478,7 +478,7 @@
                                                 Philosophie der Upanischad's, Leipzig
                                           1899</title></bibl>
                                     <bibl xml:id="G.Schopenhauer"><author>Arthur Schopenhauer,
-                                                Eduard Grisebach (ed.),
+                                                Eduard Grisebach (ed.)
                                                 </author><title>Schopenhauer's Gespräche und
                                                 Selbstgespräche: Nach der Handschrift Eis Heauton,
                                                 1898</title><ptr
@@ -492,7 +492,7 @@
                                     <bibl xml:id="G.Lessmann"><author>Otto
                                                 Lessmann</author><title>Allgemeine Deutsche
                                                 Musik-Zeitung 24.3.1882</title></bibl>
-                                    <bibl xml:id="Kant1"><author>Immanuel
+                                    <bibl xml:id="G.Kant_Vorlesungen"><author>Immanuel
                                                 Kant</author><title>Gesammelte Schriften. Abtheilung
                                                 IV: Vorlesungen, De Gruyter, 1972</title></bibl>
                               </listBibl>
@@ -504,10 +504,10 @@
                                           <author>Tacitus</author>
                                           <title>Germania</title><ptr
                                                 target="http://www.perseus.tufts.edu/hopper/text?doc=#"
-                                          ></ptr>/> </bibl>
+                                          ></ptr></bibl>
                               </listBibl>
                               <listBibl type="GreekLit">
-                                    <bibl xml:id="Gr.Thales"><author>Thales</author><title>in
+                                    <bibl xml:id="GreekLit.Thales"><author>Thales</author><title>in
                                                 Aristotle's Metaphysics</title><ptr
                                                 target="http://www.perseus.tufts.edu/hopper/text?doc=#"
                                           ></ptr></bibl>
@@ -542,6 +542,8 @@
                                           <ptr target="Sources/Gritli_Letters/Gritli_18.8.18.html#/"
                                           ></ptr>
                                     </bibl>
+                                    <bibl xml:id="O.Mensch"><author>Franz Rosenzweig</author><title>Der Mensch und sein Werk, Niejhofer, 1979 (Journal)</title></bibl>
+                                    <bibl xml:id="O.Paralipomena"><author>Franz Rosenzweig</author><title>Paralipomena</title><ptr target="http://www.archive.org/stream/franzrosenzweig_04_reel04#"/></bibl>
                               </listBibl>
 
 

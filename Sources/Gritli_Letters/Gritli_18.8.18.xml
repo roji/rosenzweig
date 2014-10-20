@@ -3,26 +3,30 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Gritli Briefe</title>
          </titleStmt>
          <publicationStmt>
-            <p>The Eugen Rosenstock-Huessy Fund commissioned the preparation of Franz Rosenzweig's correspondence with Margrit Rosenstock-Huessy. This is the only source of the complete surviving correspondence in unabridged form, drawn directly from the original manuscripts. There are more than 1200 letters.
-               
-               Franz Rosenzweig (1886-1929) wrote these letters between 1917 and 1929 to Margrit Rosenstock-Huessy (1893 -1959) and his friend Eugen Rosenstock-Huessy (1888-1973.) The Eugen Rosenstock-Huessy Fund believes that these letters offer an important insight into the complex relationships between these three people, and that at a time that was centrally important for their lives and work.
-               
-               The correspondence was transcribed by Ulrike von Moltke between 1985 and 1990. Michael Gormann-Thelen und Dr. Elfriede Büchsel have proof-read, corrected and added to these transcriptions. 
-               
-            </p>
+            <p>The Eugen Rosenstock-Huessy Fund commissioned the preparation of Franz Rosenzweig's
+               correspondence with Margrit Rosenstock-Huessy. This is the only source of the
+               complete surviving correspondence in unabridged form, drawn directly from the
+               original manuscripts. There are more than 1200 letters. Franz Rosenzweig (1886-1929)
+               wrote these letters between 1917 and 1929 to Margrit Rosenstock-Huessy (1893 -1959)
+               and his friend Eugen Rosenstock-Huessy (1888-1973.) The Eugen Rosenstock-Huessy Fund
+               believes that these letters offer an important insight into the complex relationships
+               between these three people, and that at a time that was centrally important for their
+               lives and work. The correspondence was transcribed by Ulrike von Moltke between 1985
+               and 1990. Michael Gormann-Thelen und Dr. Elfriede Büchsel have proof-read, corrected
+               and added to these transcriptions. </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Argo Book, available online  http://argobooks.org/gritli/index.html</p>
+            <p>Argo Book, available online http://argobooks.org/gritli/index.html</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <div type="letter">
             <opener>
@@ -30,15 +34,48 @@
                   <date when="1918-08-18">18.VIII.[18]</date>
                </dateline>
                <salute>Liebes Gritli,</salute>
-            </opener>                                                    
-            
-            <p> beim Ordnen von Briefen finde ich noch diesen Gang der Mensur Hans = Eugen. Hansens Brief, den du ja kennst, gieb Eugen wieder; und Eugens lies und schick zurück an Hans. Wie wenig  könnte  ich die von Eugen mir zugemutete  ehrliche Maklerrolle dabei spielen. Auf Eugens blutroten Hauptsatz in dem Brief geht Hans überhaupt nicht ein. Dies, und nicht alle formulierten  Gegensätze,  ist das eigentliche Symptom der Unmöglichkeit zueinanderzukommen. - Den Gelegenheitsbrief muss ich wohl in Kassel gelassen haben; hier ist er keinesfalls.
-            
-            <span xml:id="GRIT1">Ich lese fleissig und fast ohne was zu verstehen die Cohensche Logik. Er setzt masslos viel Mathematik und Geschichte der Mathematik voraus, dazu noch viel zeitgenössische Aussichten, und alles nur in Anspielungen. Hie und da kann ich wohl mal folgen; das lohnt sich dann fast stets;</span> im Putzianum (dem blonden) habe ich ihn tatsächlich in einigem antezipiert. Im ganzen ist er unheimlich hegelianisch, bis in Einzelheiten, ohne es zu wissen. Eben deswegen komme ich nicht recht mit ihm zusammen. Stünde nicht das Religionsbuch am Ende, worin er tatsächlich (wenn auch nicht mit Bewusstsein) einen grossen Widerruf tut, so würde ich mich durch den dicken Hirsebreiberg der 4 oder 5 Systembände nicht durchfressen. - Das Schreiben in Anspielungen, so verlockend und papiersparend es ist, sollte man sich wirklich verbieten; wenn man nicht grade das Glück hat, im Jahr 1800 zu leben und also einen Zeitkreis um sich zu haben, der en bloc der Folgezeit vererbt wird; so ging es Hegel mit der "Phänomenologie", deren Anspielungen fast nur auf Dinge gehen, die uns heut noch genau so lebendig sind wie sie damals waren. Aber das ist eine Ausnahme. Der Kreis der 60er bis 80er Jahre, in dem Cohen grossgewachsen ist, ist uns heute schon so fremd und wird uns auch kaum je wieder interessant werden. Dass er in dieser Zeit dann noch das geworden ist, was er ist, das ist eigentlich ein Wunder. Weil er doch wirklich in der Zeit gelebt hat, sich von der Zeit genährt hat, und nicht wie Nietzsche von seinem eigenen Fleisch. Aber die Erklärung liegt eben in dem Stück Fremdheit gegen die Zeit, das er von Haus aus hatte und sich immer bewahrte. Und deshalb wäre es eigentlich nur natürlich, wenn sein zeitfremdestes Buch auch sein grösstes geworden wäre. (Wie ich ja eben vermute).
-            
-            Da habe ich unwillkürlich den Abriss des Aufsatzes hingeschrieben, den ich am Ende, wenn ich durch bin, über ihn u. speziell über das Nachlassbuch schreiben will. Nun wäre es wieder gut, wenn ich - Durchschlag hätte. Oder vielleicht ist es auch besser so; damit ich dieses wirkliche Vor = Urteil lieber wieder vergesse und erst einmal urteilsfähig werde; obwohl ich gefunden habe, dass die Nachurteile doch meist den Vorurteilen auf ein Haar gleichsehen. - Meins über dich allerdings nicht. Aber dafür deins über mich. Übrigens einmal war ich doch schon sehr eingenommen von dir: als du mir durch Mutter auf den Dub Äpfel schicken liessest und ausdrücklich auf einen Bedankemichbrief verzichtestest. Du konntest doch nicht ahnen, dass ich ihn so reichlich nachholen würde - den Bedankemichbrief.
-            
-            </p><closer>Dank, Gritli - <signed>Dein Franz.</signed></closer></div>
+            </opener>
+
+            <p> beim Ordnen von Briefen finde ich noch diesen Gang der Mensur Hans = Eugen. Hansens
+               Brief, den du ja kennst, gieb Eugen wieder; und Eugens lies und schick zurück an
+               Hans. Wie wenig könnte ich die von Eugen mir zugemutete ehrliche Maklerrolle dabei
+               spielen. Auf Eugens blutroten Hauptsatz in dem Brief geht Hans überhaupt nicht ein.
+               Dies, und nicht alle formulierten Gegensätze, ist das eigentliche Symptom der
+               Unmöglichkeit zueinanderzukommen. - Den Gelegenheitsbrief muss ich wohl in Kassel
+               gelassen haben; hier ist er keinesfalls. <span xml:id="GRIT1">Ich lese fleissig und
+                  fast ohne was zu verstehen die Cohensche Logik. Er setzt masslos viel Mathematik
+                  und Geschichte der Mathematik voraus, dazu noch viel zeitgenössische Aussichten,
+                  und alles nur in Anspielungen</span>. Hie und da kann ich wohl mal folgen; das lohnt sich
+                  dann fast stets; im Putzianum (dem blonden) habe ich ihn tatsächlich in
+               einigem antezipiert. Im ganzen ist er unheimlich hegelianisch, bis in Einzelheiten,
+               ohne es zu wissen. Eben deswegen komme ich nicht recht mit ihm zusammen. Stünde nicht
+               das Religionsbuch am Ende, worin er tatsächlich (wenn auch nicht mit Bewusstsein)
+               einen grossen Widerruf tut, so würde ich mich durch den dicken Hirsebreiberg der 4
+               oder 5 Systembände nicht durchfressen. - Das Schreiben in Anspielungen, so verlockend
+               und papiersparend es ist, sollte man sich wirklich verbieten; wenn man nicht grade
+               das Glück hat, im Jahr 1800 zu leben und also einen Zeitkreis um sich zu haben, der
+               en bloc der Folgezeit vererbt wird; so ging es Hegel mit der "Phänomenologie", deren
+               Anspielungen fast nur auf Dinge gehen, die uns heut noch genau so lebendig sind wie
+               sie damals waren. Aber das ist eine Ausnahme. Der Kreis der 60er bis 80er Jahre, in
+               dem Cohen grossgewachsen ist, ist uns heute schon so fremd und wird uns auch kaum je
+               wieder interessant werden. Dass er in dieser Zeit dann noch das geworden ist, was er
+               ist, das ist eigentlich ein Wunder. Weil er doch wirklich in der Zeit gelebt hat,
+               sich von der Zeit genährt hat, und nicht wie Nietzsche von seinem eigenen Fleisch.
+               Aber die Erklärung liegt eben in dem Stück Fremdheit gegen die Zeit, das er von Haus
+               aus hatte und sich immer bewahrte. Und deshalb wäre es eigentlich nur natürlich, wenn
+               sein zeitfremdestes Buch auch sein grösstes geworden wäre. (Wie ich ja eben vermute).
+               Da habe ich unwillkürlich den Abriss des Aufsatzes hingeschrieben, den ich am Ende,
+               wenn ich durch bin, über ihn u. speziell über das Nachlassbuch schreiben will. Nun
+               wäre es wieder gut, wenn ich - Durchschlag hätte. Oder vielleicht ist es auch besser
+               so; damit ich dieses wirkliche Vor = Urteil lieber wieder vergesse und erst einmal
+               urteilsfähig werde; obwohl ich gefunden habe, dass die Nachurteile doch meist den
+               Vorurteilen auf ein Haar gleichsehen. - Meins über dich allerdings nicht. Aber dafür
+               deins über mich. Übrigens einmal war ich doch schon sehr eingenommen von dir: als du
+               mir durch Mutter auf den Dub Äpfel schicken liessest und ausdrücklich auf einen
+               Bedankemichbrief verzichtestest. Du konntest doch nicht ahnen, dass ich ihn so
+               reichlich nachholen würde - den Bedankemichbrief. </p>
+            <closer>Dank, Gritli - <signed>Dein Franz.</signed></closer>
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>
