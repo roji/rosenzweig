@@ -5,7 +5,7 @@
 /* Quote styling */
 .quote {
   cursor: pointer;
-  text-decoration: underline;
+  color: #6F6F6F;
 }
 
 /* Hide later books of DerStern for now */
@@ -22,8 +22,40 @@
   font-weight: bold;
 }
 
+.quote>quote { /* alternate double */
+	border-bottom: 3px double;
+	line-height: 1.7em;
+}
 .quote.GermanLIT {
-  color: green;
+  border-bottom: 2px solid #339933;
+}
+.quote.Talmud_Bavli {
+  border-bottom: 2px solid #336699;
+}
+.quote.BibleOT {
+  border-bottom: 2px solid #00CCFF;
+
+}
+.quote.BibleNT {
+  border-bottom: 2px solid #0033CC;
+}
+.quote.Midrash {
+  border-bottom: 2px solid #339933;
+}
+.quote.ItalianLit {
+  border-bottom: 2px solid #FFFF00;
+}
+.quote.RomanLit {
+  border-bottom: 2px solid #990099;
+}
+.quote.GreekLit {
+  border-bottom: 2px solid #CC00FF;
+}
+.quote.FrenchLit {
+  border-bottom: 2px solid #FF6600;
+}
+.quote.EnglishLit {
+  border-bottom: 2px solid #999966;
 }
 
 /* Splitpane-related */
@@ -31,11 +63,13 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  line-height: 1.8em;
+  text-align:justify;
   margin: 0;
   padding: 0;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 14pt;
-  background-color: #ebebeb;
+  background-color: #EBE0CC;
   color: #292929;
 }
 .page-setup {
@@ -69,18 +103,28 @@ html, body {
 body > head {
   font-size: 130%;
   text-indent: -0.5em;
+
+}
+.toc {  font-size: 100%;
+  line-height: 1.6em;
+
+
+    
 }
 header {
-  font-size: 120%;
-  text-indent: -0.5em;
+
+  font-size: 97%;
+  text-align:center;
+
 }
 h1 {
-  font-size: 115%;
+  font-size: 100%;
 }
 h2 {
-  font-size: 110%;
+  font-size: 90%;
 }
 h3 {
-  font-size: 120%;
+  font-size: 100%;
 }
+
 
