@@ -22,7 +22,7 @@
   font-weight: bold;
 }
 
-.quote>quote { /* alternate double */
+.quote > .quote { /* alternate double */
 	border-bottom: 3px double;
 	line-height: 1.7em;
 }
