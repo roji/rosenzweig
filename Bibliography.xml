@@ -477,6 +477,9 @@
                                     <bibl xml:id="G.Deussen"><author>Paul Deussen</author><title>Die
                                                 Philosophie der Upanischad's, Leipzig
                                           1899</title></bibl>
+                                    <bibl xml:id="G.Kant_KRV"><author>Immanuel Kant</author><title>Kritik der reinen Vernunft</title><ptr target="https://archive.org/stream/kritikderreinen00kantgoog#"/></bibl>
+                                    <bibl xml:id="G.Kant_Prolegomena"><author>Immanuel Kant</author><title>Prolegomena zu einer jeden künftigen Metaphysik</title><ptr target="https://archive.org/stream/ldpd_10422263_000#"/></bibl>
+                                    <bibl xml:id="G.Nietzsche_Zarathustra"><author>Friedrich Nietzsche</author><title>Also Sprach Zarathustra (Sämtliche Werke : kritische Studienausgabe 1980)</title><ptr target="http://www.nietzschesource.org/#"/></bibl>
                                     <bibl xml:id="G.Schopenhauer"><author>Arthur Schopenhauer,
                                                 Eduard Grisebach (ed.)
                                                 </author><title>Schopenhauer's Gespräche und
