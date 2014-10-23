@@ -76,8 +76,10 @@ function AttachTooltip(topQuoteEl, quotes)
 
         // SECONDARY BIBLIOGRAPHY
 
-        var ana = $(this).data('ana').replace(/^#/, '');
-        var secondaryBibRecord = bibliography[ana];
+        var ana = $(this).data('ana');
+        var secondaryBibRecord;
+        if (typeof ana != 'undefined')
+            secondaryBibRecord = bibliography[ana.replace(/^#/, '')];
         if (typeof secondaryBibRecord != 'undefined')
         {
             var secondaryBibEl = $('<p/>', { 'class' : 'secondary_bib' });
