@@ -23,7 +23,7 @@
 }
 
 .quote > .quote { /* alternate double */
-	border-bottom: 3px double;
+	border-bottom: 4px double;
 	line-height: 1.7em;
 }
 .quote.GermanLIT {
@@ -36,6 +36,9 @@
   border-bottom: 2px solid #00CCFF;
 
 }
+.quote.Own {
+  border-bottom: 2px solid #FF0000;
+}  
 .quote.BibleNT {
   border-bottom: 2px solid #0033CC;
 }
@@ -46,16 +49,16 @@
   border-bottom: 2px solid #FFFF00;
 }
 .quote.RomanLit {
-  border-bottom: 2px solid #990099;
+  border-bottom: 2px solid #CC00FF;
 }
 .quote.GreekLit {
   border-bottom: 2px solid #CC00FF;
 }
 .quote.FrenchLit {
-  border-bottom: 2px solid #FF6600;
+  border-bottom: 2px solid #FFFF00;
 }
 .quote.EnglishLit {
-  border-bottom: 2px solid #999966;
+  border-bottom: 2px solid #FFFF00;
 }
 
 /* Splitpane-related */
