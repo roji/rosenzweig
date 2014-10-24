@@ -513,7 +513,7 @@
                               <listBibl type="GreekLit">
                                     <bibl xml:id="GreekLit.Thales"><author>Thales</author><title>in
                                                 Aristotle's Metaphysics</title><ptr
-                                                target="http://www.perseus.tufts.edu/hopper/text?doc=#"
+                                                      target="http://www.perseus.tufts.edu/hopper/text?doc=#"
                                           ></ptr></bibl>
                               </listBibl>
                               <listBibl type="ItalianLit">
