@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Sources/Dante_Goettliche/Die_Goettliche_Komoedie.xml</String>
+                                    <String>DerStern.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Source</String>
+                                        <String>DerStern</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,11 +25,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>DerStern.xml</String>
+                                    <String>Sources/Dante_Goettliche/Die_Goettliche_Komoedie.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DerStern</String>
+                                        <String>Source</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
